@@ -49,6 +49,7 @@ actionable HR strategies to improve retention.
 
 ```
 
+├── PNGs/ # 12 visualizations
 ├── data/ # Raw CSV (from Kaggle)
 ├── hr_attrition_analysis.py # Main analysis + ML
 ├── sql_queries.sql # 15 SQL queries
@@ -56,7 +57,6 @@ actionable HR strategies to improve retention.
 ├── business_report.md # Full business report
 ├── hr_attrition_analysis_summary.xlsx # Excel summary
 ├── high_risk_employees.csv # At-risk employee list
-├── \*.png # 12 visualizations
 ├── requirements.txt # Dependencies
 └── README.md # This file
 
@@ -66,15 +66,15 @@ actionable HR strategies to improve retention.
 
 ### Attrition Overview
 
-![Overview](01_attrition_overview.png)
+![Overview](PNGs/01_attrition_overview.png)
 
 ### Work Conditions Impact
 
-![Work](04_work_conditions.png)
+![Work](PNGs/04_work_conditions.png)
 
 ### Prediction Model Results
 
-![Model](11_model_results.png)
+![Model](PNGs/11_model_results.png)
 
 ## Top 5 Recommendations
 
