@@ -1,0 +1,362 @@
+Age,Attrition,BusinessTravel,DailyRate,Department,DistanceFromHome,Education,EducationField,EnvironmentSatisfaction,Gender,HourlyRate,JobInvolvement,JobLevel,JobRole,JobSatisfaction,MaritalStatus,MonthlyIncome,MonthlyRate,NumCompaniesWorked,OverTime,PercentSalaryHike,PerformanceRating,RelationshipSatisfaction,StockOptionLevel,TotalWorkingYears,TrainingTimesLastYear,WorkLifeBalance,YearsAtCompany,YearsInCurrentRole,YearsSinceLastPromotion,YearsWithCurrManager,Attrition_Flag,AgeGroup,IncomeGroup,TenureGroup,DistanceGroup,attrition_risk,risk_category
+41,Yes,Travel_Rarely,1102,Sales,1,2,Life Sciences,2,Female,94,3,2,Sales Executive,4,Single,5993,19479,8,Yes,11,3,1,0,8,0,1,6,4,0,5,1,36-45,5K-8K,6-10yr,0-5 mi,0.911470138927143,High Risk
+37,Yes,Travel_Rarely,1373,Research & Development,2,2,Other,4,Male,92,2,1,Laboratory Technician,3,Single,2090,2396,6,Yes,15,3,2,0,7,3,3,0,0,0,0,1,36-45,<3K,0-1yr,0-5 mi,0.8262101105752954,High Risk
+27,No,Travel_Rarely,591,Research & Development,2,1,Medical,1,Male,40,3,1,Laboratory Technician,2,Married,3468,16632,9,No,12,3,4,1,6,3,3,2,2,2,2,0,26-35,3K-5K,2-3yr,0-5 mi,0.8202927500492162,High Risk
+28,Yes,Travel_Rarely,103,Research & Development,24,3,Life Sciences,3,Male,50,2,1,Laboratory Technician,3,Single,2028,12947,5,Yes,14,3,2,0,6,4,3,4,2,0,3,1,26-35,<3K,4-5yr,15+ mi,0.967562649929868,High Risk
+38,No,Travel_Rarely,371,Research & Development,2,3,Life Sciences,4,Male,45,3,1,Research Scientist,4,Single,3944,4306,5,Yes,11,3,3,0,6,3,3,3,2,1,2,0,36-45,3K-5K,2-3yr,0-5 mi,0.6660111971895206,High Risk
+36,Yes,Travel_Rarely,1218,Sales,9,4,Life Sciences,3,Male,82,2,1,Sales Representative,1,Single,3407,6986,7,No,23,4,2,0,10,4,3,5,3,0,3,1,36-45,3K-5K,4-5yr,6-10 mi,0.7288358141471567,High Risk
+32,Yes,Travel_Frequently,1125,Research & Development,16,1,Life Sciences,2,Female,72,1,1,Research Scientist,1,Single,3919,4681,1,Yes,22,4,2,0,10,5,3,10,2,6,7,1,26-35,3K-5K,6-10yr,15+ mi,0.9087486295402516,High Risk
+24,Yes,Travel_Rarely,813,Research & Development,1,3,Medical,2,Male,61,3,1,Research Scientist,4,Married,2293,3020,2,Yes,16,3,1,1,6,2,2,2,0,2,0,1,18-25,<3K,2-3yr,0-5 mi,0.8219558914820364,High Risk
+50,Yes,Travel_Rarely,869,Sales,3,2,Marketing,1,Male,86,2,1,Sales Representative,3,Married,2683,3810,1,Yes,14,3,3,0,3,2,3,3,2,0,2,1,46-55,<3K,2-3yr,0-5 mi,0.817638356534141,High Risk
+36,No,Travel_Rarely,852,Research & Development,5,4,Life Sciences,2,Female,82,2,1,Research Scientist,1,Married,3419,13072,9,Yes,14,3,4,1,6,3,4,1,1,0,0,0,36-45,3K-5K,0-1yr,0-5 mi,0.8760520744753206,High Risk
+26,Yes,Travel_Rarely,1357,Research & Development,25,3,Life Sciences,1,Male,48,1,1,Laboratory Technician,3,Single,2293,10558,1,No,12,3,3,0,1,2,2,1,0,0,1,1,26-35,<3K,0-1yr,15+ mi,0.9371343377409754,High Risk
+34,No,Non-Travel,1065,Sales,23,4,Marketing,2,Male,72,3,2,Sales Executive,3,Single,4568,10034,0,No,20,4,3,0,10,2,3,9,5,8,7,0,26-35,3K-5K,6-10yr,15+ mi,0.6426620662848694,High Risk
+37,No,Travel_Rarely,408,Research & Development,19,2,Life Sciences,2,Male,73,3,1,Research Scientist,2,Married,3022,10227,4,No,21,4,1,0,8,1,3,1,0,0,0,0,36-45,3K-5K,0-1yr,15+ mi,0.7377448878271541,High Risk
+48,Yes,Travel_Rarely,626,Research & Development,1,2,Life Sciences,1,Male,98,2,3,Laboratory Technician,3,Single,5381,19294,9,Yes,13,3,4,0,23,2,3,1,0,0,0,1,46-55,5K-8K,0-1yr,0-5 mi,0.8853948804352961,High Risk
+28,Yes,Travel_Rarely,1434,Research & Development,5,4,Technical Degree,3,Male,50,3,1,Laboratory Technician,3,Single,3441,11179,1,Yes,13,3,3,0,2,3,2,2,2,2,2,1,26-35,3K-5K,2-3yr,0-5 mi,0.8119691358783602,High Risk
+44,No,Travel_Rarely,1488,Sales,1,5,Marketing,2,Female,75,3,2,Sales Executive,1,Divorced,5454,4009,5,Yes,21,4,3,1,9,2,2,4,3,1,3,0,36-45,5K-8K,4-5yr,0-5 mi,0.6704640310103516,High Risk
+35,No,Non-Travel,1097,Research & Development,11,2,Medical,3,Male,79,2,3,Healthcare Representative,1,Married,9884,8302,2,Yes,13,3,3,1,10,3,3,4,0,2,3,0,26-35,8K-12K,4-5yr,11-15 mi,0.7815165158937151,High Risk
+26,No,Travel_Rarely,1443,Sales,23,3,Marketing,3,Female,47,2,2,Sales Executive,4,Married,4157,21436,7,Yes,19,3,3,1,5,2,2,2,2,0,0,0,26-35,3K-5K,2-3yr,15+ mi,0.9090531542580497,High Risk
+35,No,Travel_Rarely,1142,Research & Development,23,4,Medical,3,Female,30,3,1,Laboratory Technician,1,Married,4014,16002,3,Yes,15,3,3,1,4,3,3,2,2,2,2,0,26-35,3K-5K,2-3yr,15+ mi,0.8385344670287238,High Risk
+36,Yes,Travel_Rarely,318,Research & Development,9,3,Medical,4,Male,79,2,1,Research Scientist,3,Married,3388,21777,0,Yes,17,3,1,1,2,0,2,1,0,0,0,1,36-45,3K-5K,0-1yr,6-10 mi,0.784771083883534,High Risk
+30,No,Travel_Rarely,852,Research & Development,1,1,Life Sciences,4,Male,55,2,2,Laboratory Technician,4,Married,5126,15998,1,Yes,12,3,3,2,10,1,2,10,8,3,0,0,26-35,5K-8K,6-10yr,0-5 mi,0.6344902194490041,High Risk
+23,No,Travel_Rarely,541,Sales,2,1,Technical Degree,3,Male,62,3,1,Sales Representative,1,Divorced,2322,9518,3,No,13,3,3,1,3,3,3,0,0,0,0,0,18-25,<3K,0-1yr,0-5 mi,0.6026916965277304,High Risk
+51,No,Travel_Rarely,632,Sales,21,4,Marketing,3,Male,71,3,2,Sales Executive,4,Single,5441,8423,0,Yes,22,4,4,0,11,2,1,10,7,1,0,0,46-55,5K-8K,6-10yr,15+ mi,0.736386991700764,High Risk
+46,No,Travel_Frequently,638,Research & Development,1,3,Medical,3,Male,40,2,3,Healthcare Representative,1,Married,10673,3142,2,Yes,13,3,3,1,21,5,2,10,9,9,5,0,46-55,8K-12K,6-10yr,0-5 mi,0.65059462007339,High Risk
+20,Yes,Travel_Frequently,871,Research & Development,6,3,Life Sciences,4,Female,66,2,1,Laboratory Technician,4,Single,2926,19783,1,Yes,18,3,2,0,1,5,3,1,0,1,0,1,18-25,<3K,0-1yr,6-10 mi,0.763474795240533,High Risk
+25,Yes,Travel_Rarely,240,Sales,5,3,Marketing,3,Male,46,2,2,Sales Executive,3,Single,5744,26959,1,Yes,11,3,4,0,6,1,3,6,4,0,3,1,18-25,5K-8K,6-10yr,0-5 mi,0.9027528764739651,High Risk
+34,Yes,Travel_Frequently,658,Research & Development,7,3,Life Sciences,1,Male,66,1,2,Laboratory Technician,3,Single,6074,22887,1,Yes,24,4,4,0,9,3,3,9,7,0,6,1,26-35,5K-8K,6-10yr,6-10 mi,0.751994004561933,High Risk
+56,Yes,Travel_Rarely,441,Research & Development,14,4,Life Sciences,2,Female,72,3,1,Research Scientist,2,Married,4963,4510,9,Yes,18,3,1,3,7,2,3,5,4,4,3,1,56-65,3K-5K,4-5yr,11-15 mi,0.7913028383895775,High Risk
+31,Yes,Travel_Rarely,249,Sales,6,4,Life Sciences,2,Male,76,1,2,Sales Executive,3,Married,6172,20739,4,Yes,18,3,2,0,12,3,2,7,7,7,7,1,26-35,5K-8K,6-10yr,6-10 mi,0.9416475036818729,High Risk
+19,Yes,Travel_Rarely,528,Sales,22,1,Marketing,4,Male,50,3,1,Sales Representative,3,Single,1675,26820,1,Yes,19,3,4,0,0,2,2,0,0,0,0,1,18-25,<3K,0-1yr,15+ mi,0.9289057914262376,High Risk
+31,Yes,Travel_Rarely,542,Sales,20,3,Life Sciences,2,Female,71,1,2,Sales Executive,3,Married,4559,24788,3,Yes,11,3,3,1,4,2,3,2,2,2,2,1,26-35,3K-5K,2-3yr,15+ mi,0.9635649695819721,High Risk
+25,No,Travel_Rarely,959,Sales,28,3,Life Sciences,1,Male,41,2,2,Sales Executive,3,Married,8639,24835,2,No,18,3,4,0,6,3,3,2,2,2,2,0,18-25,8K-12K,2-3yr,15+ mi,0.7335137135093168,High Risk
+32,Yes,Travel_Rarely,1033,Research & Development,9,3,Medical,1,Female,41,3,1,Laboratory Technician,1,Single,4200,10224,7,No,22,4,1,0,10,2,4,5,4,0,4,1,26-35,3K-5K,4-5yr,6-10 mi,0.7426889705833352,High Risk
+58,No,Travel_Rarely,1145,Research & Development,9,3,Medical,2,Female,75,2,1,Research Scientist,2,Married,3346,11873,4,Yes,20,4,2,1,9,3,2,1,0,0,0,0,56-65,3K-5K,0-1yr,6-10 mi,0.6999609598759192,High Risk
+27,No,Travel_Rarely,1157,Research & Development,17,3,Technical Degree,3,Male,51,3,1,Research Scientist,2,Married,3058,13364,0,Yes,16,3,4,1,6,3,2,5,2,1,1,0,26-35,3K-5K,4-5yr,15+ mi,0.6593117077794846,High Risk
+19,Yes,Travel_Frequently,602,Sales,1,1,Technical Degree,3,Female,100,1,1,Sales Representative,1,Single,2325,20989,0,No,21,4,1,0,1,5,4,0,0,0,0,1,18-25,<3K,0-1yr,0-5 mi,0.7962281373044222,High Risk
+19,Yes,Travel_Rarely,303,Research & Development,2,3,Life Sciences,2,Male,47,2,1,Laboratory Technician,4,Single,1102,9241,1,No,22,4,3,0,1,3,2,1,0,1,0,1,18-25,<3K,0-1yr,0-5 mi,0.8253777817770529,High Risk
+31,No,Travel_Rarely,140,Research & Development,12,1,Medical,3,Female,95,3,1,Research Scientist,4,Married,3929,6984,8,Yes,23,4,3,1,7,0,3,4,2,0,2,0,26-35,3K-5K,4-5yr,11-15 mi,0.7282307302266102,High Risk
+41,Yes,Travel_Rarely,1356,Sales,20,2,Marketing,2,Female,70,3,1,Sales Representative,2,Single,3140,21728,1,Yes,22,4,4,0,4,5,2,4,3,0,2,1,36-45,3K-5K,4-5yr,15+ mi,0.7789931346602934,High Risk
+35,Yes,Travel_Rarely,556,Research & Development,23,2,Life Sciences,2,Male,50,2,2,Manufacturing Director,3,Married,5916,15497,3,Yes,13,3,1,0,8,1,3,1,0,0,1,1,26-35,5K-8K,0-1yr,15+ mi,0.9406127889238936,High Risk
+37,No,Travel_Rarely,290,Research & Development,21,3,Life Sciences,2,Male,65,4,1,Research Scientist,1,Married,3564,22977,1,Yes,12,3,1,1,8,3,2,8,7,1,7,0,36-45,3K-5K,6-10yr,15+ mi,0.7550668815792236,High Risk
+35,No,Travel_Frequently,138,Research & Development,2,3,Medical,2,Female,37,3,2,Laboratory Technician,2,Single,4425,15986,5,No,11,3,4,0,10,5,3,6,2,1,2,0,26-35,3K-5K,6-10yr,0-5 mi,0.6011161459550854,High Risk
+27,No,Travel_Frequently,472,Research & Development,1,1,Technical Degree,3,Male,60,2,2,Manufacturing Director,1,Married,4298,9679,5,No,19,3,3,1,6,1,3,2,2,2,0,0,26-35,3K-5K,2-3yr,0-5 mi,0.6782953941980657,High Risk
+40,No,Travel_Rarely,905,Research & Development,19,2,Medical,3,Male,99,3,2,Laboratory Technician,4,Married,2741,16523,8,Yes,15,3,3,1,15,2,4,7,2,3,7,0,36-45,<3K,6-10yr,15+ mi,0.6256384156987164,High Risk
+38,Yes,Travel_Rarely,1180,Research & Development,29,1,Medical,2,Male,70,3,2,Healthcare Representative,1,Married,6673,11354,7,Yes,19,3,2,0,17,2,3,1,0,0,0,1,36-45,5K-8K,0-1yr,15+ mi,0.9308249895013754,High Risk
+30,Yes,Travel_Rarely,1005,Research & Development,3,3,Technical Degree,4,Female,88,3,1,Research Scientist,1,Single,2657,8556,5,Yes,11,3,3,0,8,5,3,5,2,0,4,1,26-35,<3K,4-5yr,0-5 mi,0.6537000761194509,High Risk
+30,Yes,Travel_Frequently,334,Sales,26,4,Marketing,3,Female,52,2,2,Sales Executive,1,Single,6696,22967,5,No,15,3,3,0,9,5,2,6,3,0,1,1,26-35,5K-8K,6-10yr,15+ mi,0.882888916534491,High Risk
+29,Yes,Travel_Rarely,896,Research & Development,18,1,Medical,3,Male,86,2,1,Research Scientist,4,Single,2389,14961,1,Yes,13,3,3,0,4,3,2,4,3,0,1,1,26-35,<3K,4-5yr,15+ mi,0.8298493394006338,High Risk
+33,Yes,Travel_Rarely,813,Research & Development,14,3,Medical,3,Male,58,3,1,Laboratory Technician,4,Married,2436,22149,5,Yes,13,3,3,1,8,2,1,5,4,0,4,1,26-35,<3K,4-5yr,11-15 mi,0.7739451970452937,High Risk
+52,No,Non-Travel,771,Sales,2,4,Life Sciences,1,Male,79,2,5,Manager,3,Single,19068,21030,1,Yes,18,3,4,0,33,2,4,33,7,15,12,0,46-55,12K+,10+yr,0-5 mi,0.651898628890481,High Risk
+32,Yes,Travel_Rarely,515,Research & Development,1,3,Life Sciences,4,Male,62,2,1,Laboratory Technician,3,Single,3730,9571,0,Yes,14,3,4,0,4,2,1,3,2,1,2,1,26-35,3K-5K,2-3yr,0-5 mi,0.8105545910530155,High Risk
+31,Yes,Travel_Frequently,307,Research & Development,29,2,Medical,3,Male,71,2,1,Laboratory Technician,2,Single,3479,11652,0,No,11,3,2,0,6,2,4,5,4,1,4,1,26-35,3K-5K,4-5yr,15+ mi,0.7422485127330255,High Risk
+28,Yes,Travel_Rarely,529,Research & Development,2,4,Life Sciences,1,Male,79,3,1,Laboratory Technician,3,Single,3485,14935,2,No,11,3,3,0,5,5,1,0,0,0,0,1,26-35,3K-5K,0-1yr,0-5 mi,0.7705313914156454,High Risk
+47,Yes,Non-Travel,666,Research & Development,29,4,Life Sciences,1,Male,88,3,3,Manager,2,Married,11849,10268,1,Yes,12,3,4,1,10,2,2,10,7,9,9,1,46-55,8K-12K,6-10yr,15+ mi,0.7816578056667987,High Risk
+38,No,Travel_Rarely,322,Sales,7,2,Medical,1,Female,44,4,2,Sales Executive,1,Divorced,5605,19191,1,Yes,24,4,3,1,8,3,3,8,0,7,7,0,36-45,5K-8K,6-10yr,6-10 mi,0.7885258778278205,High Risk
+26,No,Travel_Frequently,496,Research & Development,11,2,Medical,1,Male,60,3,2,Healthcare Representative,1,Married,4741,22722,1,Yes,13,3,3,1,5,3,3,5,3,3,3,0,26-35,3K-5K,4-5yr,11-15 mi,0.9445668101070142,High Risk
+26,Yes,Travel_Rarely,1449,Research & Development,16,4,Medical,1,Male,45,3,1,Laboratory Technician,2,Divorced,2373,14180,2,Yes,13,3,4,1,5,2,3,3,2,0,2,1,26-35,<3K,2-3yr,15+ mi,0.8173799091901084,High Risk
+26,Yes,Travel_Rarely,950,Sales,4,4,Marketing,4,Male,48,2,2,Sales Executive,4,Single,5828,8450,1,Yes,12,3,2,0,8,0,3,8,7,7,4,1,26-35,5K-8K,6-10yr,0-5 mi,0.8932924570534936,High Risk
+18,Yes,Travel_Rarely,230,Research & Development,3,3,Life Sciences,3,Male,54,3,1,Laboratory Technician,3,Single,1420,25233,1,No,13,3,3,0,0,2,3,0,0,0,0,1,18-25,<3K,0-1yr,0-5 mi,0.7427050206834471,High Risk
+18,No,Travel_Rarely,812,Sales,10,3,Medical,4,Female,69,2,1,Sales Representative,3,Single,1200,9724,1,No,12,3,1,0,0,2,3,0,0,0,0,0,18-25,<3K,0-1yr,6-10 mi,0.806857096051845,High Risk
+31,No,Travel_Rarely,106,Human Resources,2,3,Human Resources,1,Male,62,2,2,Human Resources,1,Married,6410,17822,3,No,12,3,4,0,9,1,3,2,2,1,0,0,26-35,5K-8K,2-3yr,0-5 mi,0.6872499324912976,High Risk
+27,No,Travel_Rarely,1220,Research & Development,5,3,Life Sciences,3,Female,85,3,1,Research Scientist,2,Single,2478,20938,1,Yes,12,3,2,0,4,2,2,4,3,1,2,0,26-35,<3K,4-5yr,0-5 mi,0.8027408122568479,High Risk
+32,No,Travel_Rarely,588,Sales,8,2,Technical Degree,3,Female,65,2,2,Sales Executive,2,Married,5228,24624,1,Yes,11,3,4,0,13,2,3,13,12,11,9,0,26-35,5K-8K,10+yr,6-10 mi,0.8123830648048234,High Risk
+27,No,Travel_Rarely,1377,Sales,2,3,Life Sciences,4,Male,74,3,2,Sales Executive,3,Single,4478,5242,1,Yes,11,3,1,0,5,3,3,5,4,0,4,0,26-35,3K-5K,4-5yr,0-5 mi,0.7125640909165861,High Risk
+28,Yes,Travel_Rarely,1157,Research & Development,2,4,Medical,1,Male,84,1,1,Research Scientist,4,Married,3464,24737,5,Yes,13,3,4,0,5,4,2,3,2,2,2,1,26-35,3K-5K,2-3yr,0-5 mi,0.8924977179785946,High Risk
+39,Yes,Travel_Rarely,1162,Sales,3,2,Medical,4,Female,41,3,2,Sales Executive,3,Married,5238,17778,4,Yes,18,3,1,0,12,3,2,1,0,0,0,1,36-45,5K-8K,0-1yr,0-5 mi,0.6207931609063386,High Risk
+33,No,Travel_Frequently,508,Sales,10,3,Marketing,2,Male,46,2,2,Sales Executive,4,Single,4682,4317,3,No,14,3,3,0,9,6,2,7,7,0,1,0,26-35,3K-5K,6-10yr,6-10 mi,0.6073520721831265,High Risk
+27,No,Non-Travel,210,Sales,1,1,Marketing,3,Male,73,3,2,Sales Executive,2,Married,6349,22107,0,Yes,13,3,4,1,6,0,3,5,4,1,4,0,26-35,5K-8K,4-5yr,0-5 mi,0.6906514400147714,High Risk
+43,No,Travel_Rarely,1001,Research & Development,7,3,Life Sciences,3,Female,43,3,3,Healthcare Representative,1,Married,9985,9262,8,No,16,3,1,1,10,1,2,1,0,0,0,0,36-45,8K-12K,0-1yr,6-10 mi,0.6394768519006804,High Risk
+40,No,Travel_Rarely,1124,Sales,1,2,Medical,2,Male,57,1,2,Sales Executive,4,Married,7457,13273,2,Yes,22,4,3,3,6,2,2,4,3,0,2,0,36-45,5K-8K,4-5yr,0-5 mi,0.6389066870735453,High Risk
+29,Yes,Travel_Rarely,318,Research & Development,8,4,Other,2,Male,77,1,1,Laboratory Technician,1,Married,2119,4759,1,Yes,11,3,4,0,7,4,2,7,7,0,7,1,26-35,<3K,6-10yr,6-10 mi,0.8950814776024254,High Risk
+41,No,Travel_Rarely,483,Research & Development,6,3,Medical,4,Male,95,2,2,Manufacturing Director,2,Single,6032,10110,6,Yes,15,3,4,0,8,3,3,5,4,1,2,0,36-45,5K-8K,4-5yr,6-10 mi,0.7776229703768158,High Risk
+30,No,Non-Travel,641,Sales,25,2,Technical Degree,4,Female,85,3,2,Sales Executive,3,Married,4736,6069,7,Yes,12,3,2,1,4,2,4,2,2,2,2,0,26-35,3K-5K,2-3yr,15+ mi,0.8941960110297287,High Risk
+21,Yes,Travel_Frequently,756,Sales,1,1,Technical Degree,1,Female,99,2,1,Sales Representative,2,Single,2174,9150,1,Yes,11,3,3,0,3,3,3,3,2,1,2,1,18-25,<3K,2-3yr,0-5 mi,0.9545768836802173,High Risk
+21,No,Non-Travel,895,Sales,9,2,Medical,1,Male,39,3,1,Sales Representative,4,Single,2610,2851,1,No,24,4,3,0,3,3,2,3,2,2,2,0,18-25,<3K,2-3yr,6-10 mi,0.7105666912173204,High Risk
+33,Yes,Travel_Rarely,350,Sales,5,3,Marketing,4,Female,34,3,1,Sales Representative,3,Single,2851,9150,1,Yes,13,3,2,0,1,2,3,1,0,0,0,1,26-35,<3K,0-1yr,0-5 mi,0.8615117800511203,High Risk
+40,Yes,Travel_Rarely,575,Sales,22,2,Marketing,3,Male,68,2,2,Sales Executive,3,Married,6380,6110,2,Yes,12,3,1,2,8,6,3,6,4,1,0,1,36-45,5K-8K,6-10yr,15+ mi,0.8498219264593317,High Risk
+31,No,Travel_Rarely,408,Research & Development,9,4,Life Sciences,3,Male,42,2,1,Research Scientist,2,Single,2657,7551,0,Yes,16,3,4,0,3,5,3,2,2,2,2,0,26-35,<3K,2-3yr,6-10 mi,0.8027230428683737,High Risk
+21,Yes,Travel_Rarely,156,Sales,12,3,Life Sciences,3,Female,90,4,1,Sales Representative,2,Single,2716,25422,1,No,15,3,4,0,1,0,3,1,0,0,0,1,18-25,<3K,0-1yr,11-15 mi,0.697473391482646,High Risk
+35,No,Travel_Rarely,755,Research & Development,9,4,Life Sciences,3,Male,97,2,2,Healthcare Representative,2,Single,6540,19394,9,No,19,3,3,0,10,5,3,1,1,0,0,0,26-35,5K-8K,0-1yr,6-10 mi,0.713289552208225,High Risk
+34,Yes,Non-Travel,1362,Sales,19,3,Marketing,1,Male,67,4,2,Sales Executive,4,Single,5304,4652,8,Yes,13,3,2,0,9,3,2,5,2,0,4,1,26-35,5K-8K,4-5yr,15+ mi,0.9263538725402961,High Risk
+22,No,Travel_Rarely,253,Research & Development,11,3,Medical,1,Female,43,3,1,Research Scientist,2,Married,2244,24440,1,No,13,3,4,1,2,1,3,2,1,1,2,0,18-25,<3K,2-3yr,11-15 mi,0.6293580265639597,High Risk
+36,No,Travel_Rarely,164,Sales,2,2,Medical,2,Male,61,2,3,Sales Executive,3,Married,7596,3809,1,No,13,3,2,2,10,2,3,10,9,9,0,0,36-45,5K-8K,6-10yr,0-5 mi,0.73786061391166,High Risk
+30,Yes,Travel_Frequently,464,Research & Development,4,3,Technical Degree,3,Male,40,3,1,Research Scientist,4,Single,2285,3427,9,Yes,23,4,3,0,3,4,3,1,0,0,0,1,26-35,<3K,0-1yr,0-5 mi,0.875599755332577,High Risk
+37,No,Travel_Rarely,1305,Research & Development,10,4,Life Sciences,3,Male,49,3,2,Manufacturing Director,2,Single,4197,21123,2,Yes,12,3,4,0,18,2,2,1,0,0,1,0,36-45,3K-5K,0-1yr,6-10 mi,0.6730951627455465,High Risk
+25,No,Travel_Rarely,891,Sales,4,2,Life Sciences,2,Female,99,2,2,Sales Executive,4,Single,4487,12090,1,Yes,11,3,2,0,5,3,3,5,4,1,3,0,18-25,3K-5K,4-5yr,0-5 mi,0.8680054192257654,High Risk
+37,No,Non-Travel,1063,Research & Development,25,5,Medical,2,Female,72,3,2,Research Scientist,3,Married,4449,23866,3,Yes,15,3,1,2,15,2,3,13,11,10,7,0,36-45,3K-5K,10+yr,15+ mi,0.6847573460505066,High Risk
+25,Yes,Travel_Rarely,688,Research & Development,3,3,Medical,1,Male,91,3,1,Laboratory Technician,1,Married,4031,9396,5,No,13,3,3,1,6,5,3,2,2,0,2,1,18-25,3K-5K,2-3yr,0-5 mi,0.6559140735270351,High Risk
+24,Yes,Travel_Rarely,1448,Sales,1,1,Technical Degree,1,Female,62,3,1,Sales Representative,2,Single,3202,21972,1,Yes,16,3,2,0,6,4,3,5,3,1,4,1,18-25,3K-5K,4-5yr,0-5 mi,0.8198443822737406,High Risk
+29,Yes,Travel_Rarely,408,Research & Development,25,5,Technical Degree,3,Female,71,2,1,Research Scientist,2,Married,2546,18300,5,No,16,3,2,0,6,2,4,2,2,1,1,1,26-35,<3K,2-3yr,15+ mi,0.699553367198146,High Risk
+19,Yes,Travel_Rarely,489,Human Resources,2,2,Technical Degree,1,Male,52,2,1,Human Resources,4,Single,2564,18437,1,No,12,3,3,0,1,3,4,1,0,0,0,1,18-25,<3K,0-1yr,0-5 mi,0.6008902316645612,High Risk
+35,No,Travel_Rarely,144,Research & Development,22,3,Life Sciences,4,Male,46,1,1,Laboratory Technician,3,Single,4230,19225,0,No,15,3,3,0,6,2,3,5,4,4,3,0,26-35,3K-5K,4-5yr,15+ mi,0.7169262679446209,High Risk
+33,Yes,Travel_Rarely,1277,Research & Development,15,1,Medical,2,Male,56,3,3,Manager,3,Married,13610,24619,7,Yes,12,3,4,0,15,2,4,7,6,7,7,1,26-35,12K+,6-10yr,11-15 mi,0.6216609331582255,High Risk
+33,Yes,Travel_Rarely,587,Research & Development,10,1,Medical,1,Male,38,1,1,Laboratory Technician,4,Divorced,3408,6705,7,No,13,3,1,3,8,2,3,4,3,1,3,1,26-35,3K-5K,4-5yr,6-10 mi,0.7131083037653752,High Risk
+30,No,Travel_Rarely,413,Sales,7,1,Marketing,4,Male,57,3,1,Sales Representative,2,Single,2983,18398,0,No,14,3,1,0,4,3,3,3,2,1,2,0,26-35,<3K,2-3yr,6-10 mi,0.6025952988422633,High Risk
+35,No,Travel_Rarely,1276,Research & Development,16,3,Life Sciences,4,Male,72,3,3,Healthcare Representative,3,Married,7632,14295,4,Yes,12,3,3,0,10,2,3,8,7,0,0,0,26-35,5K-8K,6-10yr,15+ mi,0.6820804643118831,High Risk
+31,Yes,Travel_Frequently,534,Research & Development,20,3,Life Sciences,1,Male,66,3,3,Healthcare Representative,3,Married,9824,22908,3,No,12,3,1,0,12,2,3,1,0,0,0,1,26-35,8K-12K,0-1yr,15+ mi,0.750888775438475,High Risk
+34,Yes,Travel_Frequently,988,Human Resources,23,3,Human Resources,2,Female,43,3,3,Human Resources,1,Divorced,9950,11533,9,Yes,15,3,3,3,11,2,3,3,2,0,2,1,26-35,8K-12K,2-3yr,15+ mi,0.62425926811237,High Risk
+31,No,Travel_Rarely,828,Sales,2,1,Life Sciences,2,Male,77,3,2,Sales Executive,4,Single,6582,8346,4,Yes,13,3,3,0,10,2,4,6,5,0,5,0,26-35,5K-8K,6-10yr,0-5 mi,0.6546089374430766,High Risk
+26,Yes,Travel_Frequently,426,Human Resources,17,4,Life Sciences,2,Female,58,3,1,Human Resources,3,Divorced,2741,22808,0,Yes,11,3,2,1,8,2,2,7,7,1,0,1,26-35,<3K,6-10yr,15+ mi,0.672370242060947,High Risk
+18,Yes,Travel_Frequently,1306,Sales,5,3,Marketing,2,Male,69,3,1,Sales Representative,2,Single,1878,8059,1,Yes,14,3,4,0,0,3,3,0,0,0,0,1,18-25,<3K,0-1yr,0-5 mi,0.92473793097363,High Risk
+41,No,Non-Travel,509,Research & Development,2,4,Other,1,Female,62,2,2,Healthcare Representative,3,Single,6811,2112,2,Yes,17,3,1,0,10,3,3,8,7,0,7,0,36-45,5K-8K,6-10yr,0-5 mi,0.6814554299632595,High Risk
+26,No,Travel_Rarely,775,Sales,29,2,Medical,1,Male,45,3,2,Sales Executive,3,Divorced,4306,4267,5,No,12,3,1,2,8,5,3,0,0,0,0,0,26-35,3K-5K,0-1yr,15+ mi,0.8021636298393378,High Risk
+26,Yes,Travel_Rarely,471,Research & Development,24,3,Technical Degree,3,Male,66,1,1,Laboratory Technician,4,Single,2340,23213,1,Yes,18,3,2,0,1,3,1,1,0,0,0,1,26-35,<3K,0-1yr,15+ mi,0.9738917042104114,High Risk
+37,No,Travel_Rarely,446,Research & Development,1,4,Life Sciences,2,Female,65,3,2,Manufacturing Director,2,Married,6447,15701,6,No,12,3,2,1,8,2,2,6,5,4,3,0,36-45,5K-8K,6-10yr,0-5 mi,0.6022062425518436,High Risk
+24,Yes,Travel_Frequently,1287,Research & Development,7,3,Life Sciences,1,Female,55,3,1,Laboratory Technician,3,Married,2886,14168,1,Yes,16,3,4,1,6,4,3,6,3,1,2,1,18-25,<3K,6-10yr,6-10 mi,0.6365629480179488,High Risk
+30,Yes,Travel_Frequently,448,Sales,12,4,Life Sciences,2,Male,74,2,1,Sales Representative,1,Married,2033,14470,1,No,18,3,3,1,1,2,4,1,0,0,0,1,26-35,<3K,0-1yr,11-15 mi,0.7682746374595255,High Risk
+31,Yes,Travel_Rarely,1365,Sales,13,4,Medical,2,Male,46,3,2,Sales Executive,1,Divorced,4233,11512,2,No,17,3,3,0,9,2,1,3,1,1,2,1,26-35,3K-5K,2-3yr,11-15 mi,0.6437577505090349,High Risk
+35,No,Travel_Rarely,538,Research & Development,25,2,Other,1,Male,54,2,2,Laboratory Technician,4,Single,3681,14004,4,No,14,3,4,0,9,3,3,3,2,0,2,0,26-35,3K-5K,2-3yr,15+ mi,0.7498884424617019,High Risk
+37,No,Travel_Rarely,558,Sales,2,3,Marketing,4,Male,75,3,2,Sales Executive,3,Married,9602,3010,4,Yes,11,3,3,1,17,3,2,3,0,1,0,0,36-45,8K-12K,2-3yr,0-5 mi,0.6068936048067238,High Risk
+21,No,Travel_Rarely,1343,Sales,22,1,Technical Degree,3,Male,49,3,1,Sales Representative,3,Single,3447,24444,1,No,11,3,3,0,3,2,3,3,2,1,2,0,18-25,3K-5K,2-3yr,15+ mi,0.6986261491847247,High Risk
+45,Yes,Travel_Frequently,306,Sales,26,4,Life Sciences,1,Female,100,3,2,Sales Executive,1,Married,4286,5630,2,No,14,3,4,2,5,4,3,1,1,0,0,1,36-45,3K-5K,0-1yr,15+ mi,0.6362136172774328,High Risk
+20,Yes,Travel_Rarely,1362,Research & Development,10,1,Medical,4,Male,32,3,1,Research Scientist,3,Single,1009,26999,1,Yes,11,3,4,0,1,5,3,1,0,1,1,1,18-25,<3K,0-1yr,6-10 mi,0.7257643552225771,High Risk
+33,Yes,Travel_Frequently,1076,Research & Development,3,3,Life Sciences,1,Male,70,3,1,Research Scientist,1,Single,3348,3164,1,Yes,11,3,1,0,10,3,3,10,8,9,7,1,26-35,3K-5K,6-10yr,0-5 mi,0.9204228450168518,High Risk
+24,Yes,Travel_Rarely,693,Sales,3,2,Life Sciences,1,Female,65,3,2,Sales Executive,3,Single,4577,24785,9,No,14,3,1,0,4,3,3,2,2,2,0,1,18-25,3K-5K,2-3yr,0-5 mi,0.9430853894099236,High Risk
+60,No,Travel_Rarely,1179,Sales,16,4,Marketing,1,Male,84,3,2,Sales Executive,1,Single,5405,11924,8,No,14,3,4,0,10,1,3,2,2,2,2,0,56-65,5K-8K,2-3yr,15+ mi,0.8090215469872986,High Risk
+28,Yes,Travel_Rarely,654,Research & Development,1,2,Life Sciences,1,Female,67,1,1,Research Scientist,2,Single,2216,3872,7,Yes,13,3,4,0,10,4,3,7,7,3,7,1,26-35,<3K,6-10yr,0-5 mi,0.9156018730675373,High Risk
+44,No,Non-Travel,381,Research & Development,24,3,Medical,1,Male,49,1,1,Laboratory Technician,3,Single,3708,2104,2,No,14,3,3,0,9,5,3,5,2,1,4,0,36-45,3K-5K,4-5yr,15+ mi,0.748105665322749,High Risk
+27,No,Travel_Rarely,975,Research & Development,7,3,Medical,4,Female,55,2,2,Healthcare Representative,1,Single,6811,23398,8,No,19,3,1,0,9,2,1,7,6,0,7,0,26-35,5K-8K,6-10yr,6-10 mi,0.7029708534592521,High Risk
+38,No,Travel_Rarely,268,Research & Development,2,5,Medical,4,Male,92,3,1,Research Scientist,3,Married,3057,20471,6,Yes,13,3,2,1,6,0,1,1,0,0,1,0,36-45,3K-5K,0-1yr,0-5 mi,0.8270611529429325,High Risk
+45,No,Travel_Rarely,954,Sales,2,2,Technical Degree,2,Male,46,1,2,Sales Representative,3,Single,6632,12388,0,No,13,3,1,0,9,3,3,8,7,3,1,0,36-45,5K-8K,6-10yr,0-5 mi,0.6337729102709775,High Risk
+47,Yes,Travel_Frequently,719,Sales,27,2,Life Sciences,2,Female,77,4,2,Sales Executive,3,Single,6397,10339,4,Yes,12,3,4,0,8,2,3,5,4,1,3,1,46-55,5K-8K,4-5yr,15+ mi,0.7923406656711206,High Risk
+26,No,Travel_Frequently,575,Research & Development,1,2,Life Sciences,1,Female,71,1,1,Laboratory Technician,4,Divorced,4364,5288,3,No,14,3,1,1,5,2,3,2,2,2,0,0,26-35,3K-5K,2-3yr,0-5 mi,0.6762481993880195,High Risk
+29,No,Travel_Rarely,657,Research & Development,27,3,Medical,2,Female,66,3,2,Healthcare Representative,3,Married,4335,25549,4,No,12,3,1,1,11,3,2,8,7,1,1,0,26-35,3K-5K,6-10yr,15+ mi,0.7527610486256551,High Risk
+26,Yes,Travel_Rarely,1146,Sales,8,3,Technical Degree,4,Male,38,2,2,Sales Executive,1,Single,5326,3064,6,No,17,3,3,0,6,2,2,4,3,1,2,1,26-35,5K-8K,4-5yr,6-10 mi,0.8309661197493351,High Risk
+54,No,Travel_Rarely,376,Research & Development,19,4,Medical,4,Female,95,3,2,Manufacturing Director,1,Divorced,5485,22670,9,Yes,11,3,2,2,9,4,3,5,3,1,4,0,46-55,5K-8K,4-5yr,15+ mi,0.6449520175834372,High Risk
+38,No,Travel_Frequently,240,Research & Development,2,4,Life Sciences,1,Female,75,4,2,Manufacturing Director,1,Single,5980,26085,6,Yes,12,3,4,0,17,2,3,15,7,4,12,0,36-45,5K-8K,10+yr,0-5 mi,0.7018530845712765,High Risk
+23,Yes,Travel_Rarely,1243,Research & Development,6,3,Life Sciences,3,Male,63,4,1,Laboratory Technician,1,Married,1601,3445,1,Yes,21,4,3,2,1,2,3,0,0,0,0,1,18-25,<3K,0-1yr,6-10 mi,0.7557538387078606,High Risk
+29,Yes,Travel_Rarely,805,Research & Development,1,2,Life Sciences,2,Female,36,2,1,Laboratory Technician,1,Married,2319,6689,1,Yes,11,3,4,1,1,1,3,1,0,0,0,1,26-35,<3K,0-1yr,0-5 mi,0.9189052546094209,High Risk
+33,Yes,Travel_Rarely,118,Sales,16,3,Marketing,1,Female,69,3,2,Sales Executive,1,Single,5324,26507,5,No,15,3,3,0,6,3,3,3,2,0,2,1,26-35,5K-8K,2-3yr,15+ mi,0.8884811504243764,High Risk
+40,No,Travel_Frequently,720,Research & Development,16,4,Medical,1,Male,51,2,2,Laboratory Technician,3,Single,5094,11983,6,No,14,3,4,0,10,6,3,1,0,0,0,0,36-45,5K-8K,0-1yr,15+ mi,0.7247013307753808,High Risk
+30,No,Travel_Rarely,946,Research & Development,2,3,Medical,3,Female,52,2,2,Manufacturing Director,4,Single,6877,20234,5,Yes,24,4,2,0,12,4,2,0,0,0,0,0,26-35,5K-8K,0-1yr,0-5 mi,0.690448791858166,High Risk
+38,No,Travel_Frequently,471,Research & Development,12,3,Life Sciences,1,Male,45,2,2,Healthcare Representative,1,Divorced,6288,4284,2,No,15,3,3,1,13,3,2,4,3,1,2,0,36-45,5K-8K,4-5yr,11-15 mi,0.6163307933557327,High Risk
+28,No,Travel_Rarely,760,Sales,2,4,Marketing,2,Female,81,3,2,Sales Executive,2,Married,4779,3698,1,Yes,20,4,1,0,8,2,3,8,7,7,5,0,26-35,3K-5K,6-10yr,0-5 mi,0.8913638721175778,High Risk
+44,No,Travel_Rarely,625,Research & Development,4,3,Medical,4,Male,50,3,2,Healthcare Representative,2,Single,5933,5197,9,No,12,3,4,0,10,2,2,5,2,2,3,0,36-45,5K-8K,4-5yr,0-5 mi,0.674845735212311,High Risk
+25,No,Travel_Rarely,180,Research & Development,2,1,Medical,1,Male,65,4,1,Research Scientist,1,Single,3424,21632,7,No,13,3,3,0,6,3,2,4,3,0,1,0,18-25,3K-5K,4-5yr,0-5 mi,0.8537986036813512,High Risk
+35,No,Travel_Rarely,1343,Research & Development,27,1,Medical,3,Female,53,2,1,Research Scientist,1,Single,2559,17852,1,No,11,3,4,0,6,3,2,6,5,1,1,0,26-35,<3K,6-10yr,15+ mi,0.6425473016183475,High Risk
+42,No,Travel_Frequently,1271,Research & Development,2,1,Medical,2,Male,35,3,1,Research Scientist,4,Single,2515,9068,5,Yes,14,3,4,0,8,2,3,2,1,2,2,0,36-45,<3K,2-3yr,0-5 mi,0.6536485145771519,High Risk
+25,No,Travel_Rarely,141,Sales,3,1,Other,3,Male,98,3,2,Sales Executive,1,Married,4194,14363,1,Yes,18,3,4,0,5,3,3,5,3,0,3,0,18-25,3K-5K,4-5yr,0-5 mi,0.7950432548089303,High Risk
+35,Yes,Travel_Frequently,130,Research & Development,25,4,Life Sciences,4,Female,96,3,1,Research Scientist,2,Divorced,2022,16612,1,Yes,19,3,1,1,10,3,2,10,2,7,8,1,26-35,<3K,6-10yr,15+ mi,0.668286403000803,High Risk
+25,No,Travel_Rarely,583,Sales,4,1,Marketing,3,Male,87,2,2,Sales Executive,1,Married,4256,18154,1,No,12,3,1,0,5,1,4,5,2,0,3,0,18-25,3K-5K,4-5yr,0-5 mi,0.7611756164840956,High Risk
+29,Yes,Travel_Rarely,341,Sales,1,3,Medical,2,Female,48,2,1,Sales Representative,3,Divorced,2800,23522,6,Yes,19,3,3,3,5,3,3,3,2,0,2,1,26-35,<3K,2-3yr,0-5 mi,0.738993286852071,High Risk
+37,No,Non-Travel,1252,Sales,19,2,Medical,1,Male,32,3,3,Sales Executive,2,Single,7642,4814,1,Yes,13,3,4,0,10,2,3,10,0,0,9,0,36-45,5K-8K,6-10yr,15+ mi,0.8095553412358888,High Risk
+32,Yes,Travel_Rarely,374,Research & Development,25,4,Life Sciences,1,Male,87,3,1,Laboratory Technician,4,Single,2795,18016,1,Yes,24,4,3,0,1,2,1,1,0,0,1,1,26-35,<3K,0-1yr,15+ mi,0.9580927424390269,High Risk
+44,No,Travel_Rarely,661,Research & Development,9,2,Life Sciences,2,Male,61,3,1,Research Scientist,1,Married,2559,7508,1,Yes,13,3,4,0,8,0,3,8,7,7,1,0,36-45,<3K,6-10yr,6-10 mi,0.8894267989045479,High Risk
+28,No,Travel_Rarely,821,Sales,5,4,Medical,1,Male,98,3,2,Sales Executive,4,Single,4908,24252,1,No,14,3,2,0,4,3,3,4,2,0,2,0,26-35,3K-5K,4-5yr,0-5 mi,0.6077946331562187,High Risk
+58,Yes,Travel_Frequently,781,Research & Development,2,1,Life Sciences,4,Male,57,2,1,Laboratory Technician,4,Divorced,2380,13384,9,Yes,14,3,4,1,3,3,2,1,0,0,0,1,56-65,<3K,0-1yr,0-5 mi,0.6453411267063596,High Risk
+20,Yes,Travel_Rarely,500,Sales,2,3,Medical,3,Female,49,2,1,Sales Representative,3,Single,2044,22052,1,No,13,3,4,0,2,3,2,2,2,0,2,1,18-25,<3K,2-3yr,0-5 mi,0.6497061677879071,High Risk
+41,Yes,Travel_Rarely,1085,Research & Development,2,4,Life Sciences,2,Female,57,1,1,Laboratory Technician,4,Divorced,2778,17725,4,Yes,13,3,3,1,10,1,2,7,7,1,0,1,36-45,<3K,6-10yr,0-5 mi,0.7446310600971209,High Risk
+39,Yes,Travel_Rarely,1122,Research & Development,6,3,Medical,4,Male,70,3,1,Laboratory Technician,1,Married,2404,4303,7,Yes,21,4,4,0,8,2,1,2,2,2,2,1,36-45,<3K,2-3yr,6-10 mi,0.8763545989378331,High Risk
+33,No,Travel_Rarely,1198,Research & Development,1,4,Other,3,Male,100,2,1,Research Scientist,1,Single,2799,3339,3,Yes,11,3,2,0,6,1,3,3,2,0,2,0,26-35,<3K,2-3yr,0-5 mi,0.8871026329625857,High Risk
+31,No,Travel_Rarely,154,Sales,7,4,Life Sciences,2,Male,41,2,1,Sales Representative,3,Married,2329,11737,3,No,15,3,2,0,13,2,4,7,7,5,2,0,26-35,<3K,6-10yr,6-10 mi,0.744584125484711,High Risk
+25,Yes,Travel_Rarely,867,Sales,19,2,Marketing,3,Male,36,2,1,Sales Representative,2,Married,2413,18798,1,Yes,18,3,3,3,1,2,3,1,0,0,0,1,18-25,<3K,0-1yr,15+ mi,0.8937677237799186,High Risk
+40,No,Travel_Rarely,658,Sales,10,4,Marketing,1,Male,67,2,3,Sales Executive,2,Divorced,9705,20652,2,No,12,3,2,1,11,2,2,1,0,0,0,0,36-45,8K-12K,0-1yr,6-10 mi,0.6560159296764,High Risk
+19,Yes,Travel_Rarely,419,Sales,21,3,Other,4,Male,37,2,1,Sales Representative,2,Single,2121,9947,1,Yes,13,3,2,0,1,3,4,1,0,0,0,1,18-25,<3K,0-1yr,15+ mi,0.9716994610889171,High Risk
+20,Yes,Travel_Rarely,129,Research & Development,4,3,Technical Degree,1,Male,84,3,1,Laboratory Technician,1,Single,2973,13008,1,No,19,3,2,0,1,2,3,1,0,0,0,1,18-25,<3K,0-1yr,0-5 mi,0.8842406756480327,High Risk
+31,No,Travel_Rarely,616,Research & Development,12,3,Medical,4,Female,41,3,2,Healthcare Representative,4,Married,5855,17369,0,Yes,11,3,3,2,10,2,1,9,7,8,5,0,26-35,5K-8K,6-10yr,11-15 mi,0.6499007788145693,High Risk
+37,Yes,Travel_Rarely,625,Sales,1,4,Life Sciences,1,Male,46,2,3,Sales Executive,3,Married,10609,14922,5,No,11,3,3,0,17,2,1,14,1,11,7,1,36-45,8K-12K,10+yr,0-5 mi,0.9047216763935855,High Risk
+38,No,Non-Travel,152,Sales,10,3,Technical Degree,3,Female,85,3,2,Sales Executive,4,Single,5666,19899,1,Yes,13,3,2,0,6,1,3,5,3,1,3,0,36-45,5K-8K,4-5yr,6-10 mi,0.7640896393723918,High Risk
+31,Yes,Non-Travel,335,Research & Development,9,2,Medical,3,Male,46,2,1,Research Scientist,1,Single,2321,10322,0,Yes,22,4,1,0,4,0,3,3,2,1,2,1,26-35,<3K,2-3yr,6-10 mi,0.93873432650191,High Risk
+29,Yes,Travel_Rarely,906,Research & Development,10,3,Life Sciences,4,Female,92,2,1,Research Scientist,1,Single,2404,11479,6,Yes,20,4,3,0,3,5,3,0,0,0,0,1,26-35,<3K,0-1yr,6-10 mi,0.8996505270068298,High Risk
+27,No,Travel_Rarely,1134,Research & Development,16,4,Technical Degree,3,Female,37,3,1,Laboratory Technician,2,Married,2811,12086,9,No,14,3,2,1,4,2,3,2,2,2,2,0,26-35,<3K,2-3yr,15+ mi,0.7781229362835972,High Risk
+30,Yes,Travel_Rarely,138,Research & Development,22,3,Life Sciences,1,Female,48,3,1,Research Scientist,3,Married,2132,11539,4,Yes,11,3,2,0,7,2,3,5,2,0,1,1,26-35,<3K,4-5yr,15+ mi,0.9493207225669253,High Risk
+35,Yes,Travel_Rarely,622,Research & Development,14,4,Other,3,Male,39,2,1,Laboratory Technician,2,Divorced,3743,10074,1,Yes,24,4,4,1,5,2,1,4,2,0,2,1,26-35,3K-5K,4-5yr,11-15 mi,0.7709398658093604,High Risk
+35,No,Travel_Rarely,583,Research & Development,25,4,Medical,3,Female,57,3,3,Healthcare Representative,3,Divorced,10388,6975,1,Yes,11,3,3,1,16,3,2,16,10,10,1,0,26-35,8K-12K,10+yr,15+ mi,0.8202090371869617,High Risk
+20,Yes,Travel_Rarely,1097,Research & Development,11,3,Medical,4,Female,98,2,1,Research Scientist,1,Single,2600,18275,1,Yes,15,3,1,0,1,2,3,1,0,0,0,1,18-25,<3K,0-1yr,11-15 mi,0.914285962027522,High Risk
+30,Yes,Travel_Frequently,109,Research & Development,5,3,Medical,2,Female,60,3,1,Laboratory Technician,2,Single,2422,25725,0,No,17,3,1,0,4,3,3,3,2,1,2,1,26-35,<3K,2-3yr,0-5 mi,0.6325463485570395,High Risk
+22,No,Travel_Rarely,217,Research & Development,8,1,Life Sciences,2,Male,94,1,1,Laboratory Technician,1,Married,2451,6881,1,No,15,3,1,1,4,3,2,4,3,1,1,0,18-25,<3K,4-5yr,6-10 mi,0.9123265063415638,High Risk
+37,Yes,Travel_Rarely,1141,Research & Development,11,2,Medical,1,Female,61,1,2,Healthcare Representative,2,Married,4777,14382,5,No,15,3,1,0,15,2,1,1,0,0,0,1,36-45,3K-5K,0-1yr,11-15 mi,0.8876983050057023,High Risk
+38,No,Travel_Rarely,1035,Sales,3,4,Life Sciences,2,Male,42,3,2,Sales Executive,4,Single,6861,4981,8,Yes,12,3,3,0,19,1,3,1,0,0,0,0,36-45,5K-8K,0-1yr,0-5 mi,0.8621559615264817,High Risk
+26,Yes,Non-Travel,265,Sales,29,2,Medical,2,Male,79,1,2,Sales Executive,1,Single,4969,21813,8,No,18,3,4,0,7,6,3,2,2,2,2,1,26-35,3K-5K,2-3yr,15+ mi,0.9635458579105148,High Risk
+32,No,Non-Travel,1109,Research & Development,29,4,Medical,4,Female,69,3,1,Laboratory Technician,3,Single,4025,11135,9,No,12,3,2,0,10,2,3,8,7,7,7,0,26-35,3K-5K,6-10yr,15+ mi,0.7202485379947576,High Risk
+36,Yes,Travel_Rarely,660,Research & Development,15,3,Other,1,Male,81,3,2,Laboratory Technician,3,Divorced,4834,7858,7,No,14,3,2,1,9,3,2,1,0,0,0,1,36-45,3K-5K,0-1yr,11-15 mi,0.6985830659609112,High Risk
+26,Yes,Travel_Frequently,342,Research & Development,2,3,Life Sciences,1,Male,57,3,1,Research Scientist,1,Married,2042,15346,6,Yes,14,3,2,1,6,2,3,3,2,1,2,1,26-35,<3K,2-3yr,0-5 mi,0.9532503788195065,High Risk
+40,No,Travel_Rarely,300,Sales,26,3,Marketing,3,Male,74,3,2,Sales Executive,1,Married,8396,22217,1,No,14,3,2,1,8,3,2,7,7,7,5,0,36-45,8K-12K,6-10yr,15+ mi,0.697295464150057,High Risk
+20,Yes,Travel_Frequently,769,Sales,9,3,Marketing,4,Female,54,3,1,Sales Representative,4,Single,2323,17205,1,Yes,14,3,2,0,2,3,3,2,2,0,2,1,18-25,<3K,2-3yr,6-10 mi,0.7582434396692572,High Risk
+21,Yes,Travel_Rarely,1334,Research & Development,10,3,Life Sciences,3,Female,36,2,1,Laboratory Technician,1,Single,1416,17258,1,No,13,3,1,0,1,6,2,1,0,1,0,1,18-25,<3K,0-1yr,6-10 mi,0.8602806711338494,High Risk
+28,Yes,Non-Travel,1366,Research & Development,24,2,Technical Degree,2,Male,72,2,3,Healthcare Representative,1,Single,8722,12355,1,No,12,3,1,0,10,2,2,10,7,1,9,1,26-35,8K-12K,6-10yr,15+ mi,0.7044556868460958,High Risk
+26,No,Travel_Rarely,192,Research & Development,1,2,Medical,1,Male,59,2,1,Laboratory Technician,1,Married,3955,11141,1,No,16,3,1,2,6,2,3,5,3,1,3,0,26-35,3K-5K,4-5yr,0-5 mi,0.7477110469153245,High Risk
+35,Yes,Travel_Rarely,1204,Sales,4,3,Technical Degree,4,Male,86,3,3,Sales Executive,1,Single,9582,10333,0,Yes,22,4,1,0,9,2,3,8,7,4,7,1,26-35,8K-12K,6-10yr,0-5 mi,0.6160275298785886,High Risk
+26,Yes,Travel_Rarely,1330,Research & Development,21,3,Medical,1,Male,37,3,1,Laboratory Technician,3,Divorced,2377,19373,1,No,20,4,3,1,1,0,2,1,1,0,0,1,26-35,<3K,0-1yr,15+ mi,0.6916096679812562,High Risk
+33,Yes,Travel_Rarely,1017,Research & Development,25,3,Medical,1,Male,55,2,1,Research Scientist,2,Single,2313,2993,4,Yes,20,4,2,0,5,0,3,2,2,2,2,1,26-35,<3K,2-3yr,15+ mi,0.9821496906345889,High Risk
+28,Yes,Travel_Frequently,1009,Research & Development,1,3,Medical,1,Male,45,2,1,Laboratory Technician,2,Divorced,2596,7160,1,No,15,3,1,2,1,2,3,1,0,0,0,1,26-35,<3K,0-1yr,0-5 mi,0.6444488585216741,High Risk
+38,No,Travel_Rarely,130,Sales,2,2,Marketing,4,Male,32,3,3,Sales Executive,2,Single,7351,20619,7,No,16,3,3,0,10,2,3,1,0,0,0,0,36-45,5K-8K,0-1yr,0-5 mi,0.6621976853656409,High Risk
+21,No,Travel_Rarely,984,Research & Development,1,1,Technical Degree,4,Female,70,2,1,Research Scientist,2,Single,2070,25326,1,Yes,11,3,3,0,2,6,4,2,2,2,2,0,18-25,<3K,2-3yr,0-5 mi,0.6821128328759993,High Risk
+39,No,Non-Travel,439,Research & Development,9,3,Life Sciences,3,Male,70,3,2,Laboratory Technician,2,Single,6782,8770,9,No,15,3,3,0,9,2,2,5,4,0,3,0,36-45,5K-8K,4-5yr,6-10 mi,0.6772530666175903,High Risk
+42,No,Travel_Rarely,188,Research & Development,29,3,Medical,2,Male,56,1,2,Laboratory Technician,4,Single,4272,9558,4,No,19,3,1,0,16,3,3,1,0,0,0,0,36-45,3K-5K,0-1yr,15+ mi,0.8049026803970393,High Risk
+29,No,Travel_Rarely,718,Research & Development,8,1,Medical,2,Male,79,2,2,Manufacturing Director,4,Married,5056,17689,1,Yes,15,3,3,1,10,2,2,10,7,1,2,0,26-35,5K-8K,6-10yr,6-10 mi,0.6854816967029551,High Risk
+18,Yes,Non-Travel,247,Research & Development,8,1,Medical,3,Male,80,3,1,Laboratory Technician,3,Single,1904,13556,1,No,12,3,4,0,0,0,3,0,0,0,0,1,18-25,<3K,0-1yr,6-10 mi,0.7397438411276491,High Risk
+33,Yes,Travel_Rarely,603,Sales,9,4,Marketing,1,Female,77,3,2,Sales Executive,1,Single,8224,18385,0,Yes,17,3,1,0,6,3,3,5,2,0,3,1,26-35,8K-12K,4-5yr,6-10 mi,0.9027417780558574,High Risk
+41,No,Travel_Rarely,167,Research & Development,12,4,Life Sciences,2,Male,46,3,1,Laboratory Technician,4,Married,4766,9051,3,Yes,11,3,1,1,6,4,3,1,0,0,0,0,36-45,3K-5K,0-1yr,11-15 mi,0.8475580014874009,High Risk
+42,Yes,Travel_Frequently,481,Sales,12,3,Life Sciences,3,Male,44,3,4,Sales Executive,1,Single,13758,2447,0,Yes,12,3,2,0,22,2,2,21,9,13,14,1,36-45,12K+,10+yr,11-15 mi,0.8222475780356131,High Risk
+42,No,Travel_Rarely,647,Sales,4,4,Marketing,2,Male,45,3,2,Sales Executive,1,Single,5155,2253,7,No,13,3,4,0,9,3,4,6,4,1,5,0,36-45,5K-8K,6-10yr,0-5 mi,0.6476744096913891,High Risk
+24,No,Travel_Rarely,477,Research & Development,24,3,Medical,4,Male,49,3,1,Laboratory Technician,2,Single,3597,6409,8,No,22,4,4,0,6,2,3,4,3,1,2,0,18-25,3K-5K,4-5yr,15+ mi,0.8159041583122818,High Risk
+28,Yes,Travel_Rarely,1485,Research & Development,12,1,Life Sciences,3,Female,79,3,1,Laboratory Technician,4,Married,2515,22955,1,Yes,11,3,4,0,1,4,2,1,1,0,0,1,26-35,<3K,0-1yr,11-15 mi,0.6346694993040507,High Risk
+43,Yes,Travel_Rarely,1372,Sales,9,3,Marketing,1,Female,85,1,2,Sales Executive,3,Single,5346,9489,8,No,13,3,2,0,7,2,2,4,3,1,3,1,36-45,5K-8K,4-5yr,6-10 mi,0.8916549724310266,High Risk
+20,No,Travel_Rarely,805,Research & Development,3,3,Life Sciences,1,Male,87,2,1,Laboratory Technician,3,Single,3033,12828,1,No,12,3,1,0,2,2,2,2,2,1,2,0,18-25,3K-5K,2-3yr,0-5 mi,0.8884660384654671,High Risk
+29,No,Travel_Rarely,942,Research & Development,15,1,Life Sciences,2,Female,69,1,1,Research Scientist,4,Married,2168,26933,0,Yes,18,3,1,1,6,2,2,5,4,1,3,0,26-35,<3K,4-5yr,11-15 mi,0.7680878286706548,High Risk
+22,Yes,Travel_Frequently,1256,Research & Development,3,4,Life Sciences,3,Male,48,2,1,Research Scientist,4,Married,2853,4223,0,Yes,11,3,2,1,1,5,3,0,0,0,0,1,18-25,<3K,0-1yr,0-5 mi,0.6278043307196988,High Risk
+41,Yes,Non-Travel,906,Research & Development,5,2,Life Sciences,1,Male,95,2,1,Research Scientist,1,Divorced,2107,20293,6,No,17,3,1,1,5,2,1,1,0,0,0,1,36-45,<3K,0-1yr,0-5 mi,0.797018751836173,High Risk
+24,Yes,Travel_Rarely,984,Research & Development,17,2,Life Sciences,4,Female,97,3,1,Laboratory Technician,2,Married,2210,3372,1,No,13,3,1,1,1,3,1,1,0,0,0,1,18-25,<3K,0-1yr,15+ mi,0.6383500897304726,High Risk
+40,No,Travel_Rarely,107,Sales,10,3,Technical Degree,2,Female,84,2,2,Sales Executive,2,Divorced,6852,11591,7,No,12,3,2,1,7,2,4,5,1,1,3,0,36-45,5K-8K,4-5yr,6-10 mi,0.6952183528444252,High Risk
+27,No,Travel_Rarely,1103,Research & Development,14,3,Life Sciences,1,Male,42,3,1,Research Scientist,1,Married,2235,14377,1,Yes,14,3,4,2,9,3,2,9,7,6,8,0,26-35,<3K,6-10yr,11-15 mi,0.7909856027655745,High Risk
+19,Yes,Non-Travel,504,Research & Development,10,3,Medical,1,Female,96,2,1,Research Scientist,2,Single,1859,6148,1,Yes,25,4,2,0,1,2,4,1,1,0,0,1,18-25,<3K,0-1yr,6-10 mi,0.9339556562911121,High Risk
+31,No,Travel_Rarely,1332,Research & Development,11,2,Medical,3,Male,80,3,2,Healthcare Representative,1,Married,6833,17089,1,Yes,12,3,4,0,6,2,2,6,5,0,1,0,26-35,5K-8K,6-10yr,11-15 mi,0.7970595966272024,High Risk
+19,No,Travel_Rarely,265,Research & Development,25,3,Life Sciences,2,Female,57,4,1,Research Scientist,4,Single,2994,21221,1,Yes,12,3,4,0,1,2,3,1,0,0,1,0,18-25,<3K,0-1yr,15+ mi,0.8553584223465983,High Risk
+25,Yes,Travel_Frequently,599,Sales,24,1,Life Sciences,3,Male,73,1,1,Sales Representative,4,Single,1118,8040,1,Yes,14,3,4,0,1,4,3,1,0,1,0,1,18-25,<3K,0-1yr,15+ mi,0.9624941646313362,High Risk
+26,No,Travel_Rarely,583,Research & Development,4,2,Life Sciences,3,Male,53,3,1,Research Scientist,4,Single,2875,9973,1,Yes,20,4,2,0,8,2,2,8,5,2,2,0,26-35,<3K,6-10yr,0-5 mi,0.7741313518552029,High Risk
+55,No,Non-Travel,177,Research & Development,8,1,Medical,4,Male,37,2,4,Healthcare Representative,2,Divorced,13577,25592,1,Yes,15,3,4,1,34,3,3,33,9,15,0,0,46-55,12K+,10+yr,6-10 mi,0.7088322141540218,High Risk
+21,Yes,Travel_Frequently,251,Research & Development,10,2,Life Sciences,1,Female,45,2,1,Laboratory Technician,3,Single,2625,25308,1,No,20,4,3,0,2,2,1,2,2,2,2,1,18-25,<3K,2-3yr,6-10 mi,0.9062369756707411,High Risk
+34,No,Travel_Rarely,131,Sales,2,3,Marketing,3,Female,86,3,2,Sales Executive,1,Single,4538,6039,0,Yes,12,3,4,0,4,3,3,3,2,0,2,0,26-35,3K-5K,2-3yr,0-5 mi,0.8325310468328214,High Risk
+28,No,Travel_Frequently,791,Research & Development,1,4,Medical,4,Male,44,3,1,Laboratory Technician,3,Single,2154,6842,0,Yes,11,3,3,0,5,2,2,4,2,0,2,0,26-35,<3K,4-5yr,0-5 mi,0.7541524399246812,High Risk
+36,No,Travel_Rarely,429,Research & Development,2,4,Life Sciences,3,Female,53,3,2,Manufacturing Director,2,Single,5410,2323,9,Yes,11,3,4,0,18,2,3,16,14,5,12,0,36-45,5K-8K,10+yr,0-5 mi,0.6173165740585523,High Risk
+28,No,Travel_Frequently,193,Research & Development,2,3,Life Sciences,4,Male,52,2,1,Laboratory Technician,4,Married,3867,14222,1,Yes,12,3,2,1,2,2,3,2,2,2,2,0,26-35,3K-5K,2-3yr,0-5 mi,0.7713801538002288,High Risk
+30,No,Non-Travel,879,Research & Development,9,2,Medical,3,Female,72,3,2,Manufacturing Director,3,Single,4695,12858,7,Yes,18,3,3,0,10,3,3,8,4,1,7,0,26-35,3K-5K,6-10yr,6-10 mi,0.6050709328556374,High Risk
+29,Yes,Travel_Rarely,806,Research & Development,7,3,Technical Degree,2,Female,39,3,1,Laboratory Technician,3,Divorced,3339,17285,3,Yes,13,3,1,2,10,2,3,7,7,7,7,1,26-35,3K-5K,6-10yr,6-10 mi,0.6806359280139037,High Risk
+28,No,Travel_Rarely,640,Research & Development,1,3,Technical Degree,4,Male,84,3,1,Research Scientist,1,Single,2080,4732,2,No,11,3,2,0,5,2,2,3,2,1,2,0,26-35,<3K,2-3yr,0-5 mi,0.601524830679356,High Risk
+39,No,Travel_Rarely,412,Research & Development,13,4,Medical,3,Female,94,2,4,Manager,2,Divorced,17123,17334,6,Yes,13,3,4,2,21,4,3,19,9,15,2,0,36-45,12K+,10+yr,11-15 mi,0.7830501240287535,High Risk
+39,Yes,Travel_Rarely,360,Research & Development,23,3,Medical,3,Male,93,3,1,Research Scientist,1,Single,3904,22154,0,No,13,3,1,0,6,2,3,5,2,0,3,1,36-45,3K-5K,4-5yr,15+ mi,0.610253282778773,High Risk
+40,Yes,Travel_Rarely,299,Sales,25,4,Marketing,4,Male,57,2,3,Sales Executive,2,Single,9094,17235,2,Yes,12,3,3,0,9,2,3,5,4,1,0,1,36-45,8K-12K,4-5yr,15+ mi,0.9330138926533932,High Risk
+52,Yes,Travel_Rarely,1030,Sales,5,3,Life Sciences,2,Male,64,3,3,Sales Executive,2,Single,8446,21534,9,Yes,19,3,3,0,10,2,2,8,7,7,7,1,46-55,8K-12K,6-10yr,0-5 mi,0.9064375797937941,High Risk
+41,No,Non-Travel,256,Sales,10,2,Medical,3,Male,40,1,2,Sales Executive,2,Single,6151,22074,1,No,13,3,1,0,19,4,3,19,2,11,9,0,36-45,5K-8K,10+yr,6-10 mi,0.8710064170798291,High Risk
+31,Yes,Travel_Frequently,1060,Sales,1,3,Life Sciences,4,Female,54,3,1,Sales Representative,2,Single,2302,8319,1,Yes,11,3,1,0,3,2,4,3,2,2,2,1,26-35,<3K,2-3yr,0-5 mi,0.8287182248919718,High Risk
+35,No,Travel_Frequently,482,Research & Development,4,4,Life Sciences,3,Male,87,3,2,Research Scientist,3,Single,4249,2690,1,Yes,11,3,2,0,9,3,3,9,6,1,1,0,26-35,3K-5K,6-10yr,0-5 mi,0.7067016624171822,High Risk
+27,No,Travel_Frequently,793,Sales,2,1,Life Sciences,4,Male,43,1,2,Sales Executive,4,Single,5071,20392,3,No,20,4,2,0,8,3,3,6,2,0,0,0,26-35,5K-8K,6-10yr,0-5 mi,0.6640678037038251,High Risk
+55,Yes,Travel_Rarely,267,Sales,13,4,Marketing,1,Male,85,4,4,Sales Executive,3,Single,13695,9277,6,Yes,17,3,3,0,24,2,2,19,7,3,8,1,46-55,12K+,10+yr,11-15 mi,0.6545602212660036,High Risk
+34,No,Travel_Rarely,285,Research & Development,29,3,Medical,2,Male,86,3,2,Laboratory Technician,3,Married,5429,17491,4,No,13,3,1,2,10,1,3,8,7,7,7,0,26-35,5K-8K,6-10yr,15+ mi,0.7151832611327048,High Risk
+31,Yes,Travel_Frequently,703,Sales,2,3,Life Sciences,3,Female,90,2,1,Sales Representative,4,Single,2785,11882,7,No,14,3,3,0,3,3,4,1,0,0,0,1,26-35,<3K,0-1yr,0-5 mi,0.6385280360102519,High Risk
+35,Yes,Travel_Frequently,662,Sales,18,4,Marketing,4,Female,67,3,2,Sales Executive,3,Married,4614,23288,0,Yes,18,3,3,1,5,0,2,4,2,3,2,1,26-35,3K-5K,4-5yr,15+ mi,0.7317009886445904,High Risk
+28,No,Travel_Rarely,736,Sales,26,3,Life Sciences,3,Male,48,2,2,Sales Executive,1,Married,4724,24232,1,No,11,3,3,1,5,0,3,5,3,0,4,0,26-35,3K-5K,4-5yr,15+ mi,0.8089384035175123,High Risk
+39,No,Travel_Rarely,1498,Sales,21,4,Life Sciences,1,Male,44,2,2,Sales Executive,4,Married,6120,3567,3,Yes,12,3,4,2,8,2,4,5,4,1,4,0,36-45,5K-8K,4-5yr,15+ mi,0.7124046210928223,High Risk
+32,No,Travel_Rarely,499,Sales,2,1,Marketing,3,Male,36,3,2,Sales Executive,2,Married,4078,20497,0,Yes,13,3,1,3,4,3,2,3,2,1,2,0,26-35,3K-5K,2-3yr,0-5 mi,0.813025437354708,High Risk
+25,No,Travel_Rarely,1372,Sales,18,1,Life Sciences,1,Male,93,4,2,Sales Executive,3,Married,6232,12477,2,No,11,3,2,0,6,3,2,3,2,1,2,0,18-25,5K-8K,2-3yr,15+ mi,0.6605036293120484,High Risk
+43,No,Travel_Rarely,930,Research & Development,6,3,Medical,1,Female,73,2,2,Research Scientist,3,Single,4081,20003,1,Yes,14,3,1,0,20,3,1,20,7,1,8,0,36-45,3K-5K,10+yr,6-10 mi,0.6987924613529264,High Risk
+27,No,Travel_Rarely,205,Sales,10,3,Marketing,4,Female,98,2,2,Sales Executive,4,Married,5769,7100,1,Yes,11,3,4,0,6,3,3,6,2,4,4,0,26-35,5K-8K,6-10yr,6-10 mi,0.7580192093742719,High Risk
+27,Yes,Travel_Rarely,135,Research & Development,17,4,Life Sciences,4,Female,51,3,1,Research Scientist,3,Single,2394,25681,1,Yes,13,3,4,0,8,2,3,8,2,7,7,1,26-35,<3K,6-10yr,15+ mi,0.7890340705499612,High Risk
+52,No,Travel_Rarely,258,Research & Development,8,4,Other,3,Female,54,3,1,Laboratory Technician,1,Married,2950,17363,9,No,13,3,3,0,12,2,1,5,4,0,4,0,46-55,<3K,4-5yr,6-10 mi,0.6219125734126857,High Risk
+49,Yes,Travel_Frequently,1475,Research & Development,28,2,Life Sciences,1,Male,97,2,2,Laboratory Technician,1,Single,4284,22710,3,No,20,4,1,0,20,2,3,4,3,1,3,1,46-55,3K-5K,4-5yr,15+ mi,0.7206526080343557,High Risk
+29,Yes,Travel_Frequently,337,Research & Development,14,1,Other,3,Female,84,3,3,Healthcare Representative,4,Single,7553,22930,0,Yes,12,3,1,0,9,1,3,8,7,7,7,1,26-35,5K-8K,6-10yr,11-15 mi,0.8055427929497467,High Risk
+36,No,Travel_Rarely,1174,Sales,3,4,Marketing,1,Female,99,3,2,Sales Executive,2,Single,9278,20763,3,Yes,16,3,4,0,15,3,3,5,4,0,1,0,36-45,8K-12K,4-5yr,0-5 mi,0.6495808609298785,High Risk
+31,Yes,Travel_Frequently,667,Sales,1,4,Life Sciences,2,Female,50,1,1,Sales Representative,3,Single,1359,16154,1,No,12,3,2,0,1,3,3,1,0,0,0,1,26-35,<3K,0-1yr,0-5 mi,0.8403907681058861,High Risk
+31,Yes,Travel_Rarely,202,Research & Development,8,3,Life Sciences,1,Female,34,2,1,Research Scientist,2,Single,1261,22262,1,No,12,3,3,0,1,3,4,1,0,0,0,1,26-35,<3K,0-1yr,6-10 mi,0.7985102600870079,High Risk
+36,No,Travel_Rarely,329,Sales,16,4,Marketing,3,Female,98,2,2,Sales Executive,1,Married,5647,13494,4,No,13,3,1,2,11,3,2,3,2,0,2,0,36-45,5K-8K,2-3yr,15+ mi,0.7107757601574068,High Risk
+25,Yes,Travel_Rarely,383,Sales,9,2,Life Sciences,1,Male,68,2,1,Sales Representative,1,Married,4400,15182,3,No,12,3,1,0,6,2,3,3,2,2,2,1,18-25,3K-5K,2-3yr,6-10 mi,0.9443761753960029,High Risk
+39,Yes,Non-Travel,592,Research & Development,2,3,Life Sciences,1,Female,54,2,1,Laboratory Technician,1,Single,3646,17181,2,Yes,23,4,2,0,11,2,4,1,0,0,0,1,36-45,3K-5K,0-1yr,0-5 mi,0.902325693330231,High Risk
+31,Yes,Travel_Frequently,523,Research & Development,2,3,Life Sciences,2,Male,94,3,1,Laboratory Technician,4,Married,3722,21081,6,Yes,13,3,3,1,7,2,1,2,2,2,2,1,26-35,3K-5K,2-3yr,0-5 mi,0.8767426635722941,High Risk
+44,No,Travel_Frequently,383,Sales,1,5,Marketing,1,Female,79,3,2,Sales Executive,3,Married,4768,9282,7,No,12,3,3,1,11,4,2,1,0,0,0,0,36-45,3K-5K,0-1yr,0-5 mi,0.601992385477719,High Risk
+29,Yes,Travel_Frequently,115,Sales,13,3,Technical Degree,1,Female,51,3,2,Sales Executive,2,Single,5765,17485,5,No,11,3,1,0,7,4,1,5,3,0,0,1,26-35,5K-8K,4-5yr,11-15 mi,0.9533683684893254,High Risk
+34,Yes,Travel_Rarely,790,Sales,24,4,Medical,1,Female,40,2,2,Sales Executive,2,Single,4599,7815,0,Yes,23,4,3,0,16,2,4,15,9,10,10,1,26-35,3K-5K,10+yr,15+ mi,0.9203318686834323,High Risk
+24,Yes,Travel_Frequently,381,Research & Development,9,3,Medical,2,Male,89,3,1,Laboratory Technician,1,Single,3172,16998,2,Yes,11,3,3,0,4,2,2,0,0,0,0,1,18-25,3K-5K,0-1yr,6-10 mi,0.9735896235170164,High Risk
+33,No,Travel_Rarely,1099,Research & Development,4,4,Medical,1,Female,82,2,1,Laboratory Technician,2,Married,3838,8192,8,No,11,3,4,0,8,5,3,5,4,0,2,0,26-35,3K-5K,4-5yr,0-5 mi,0.646486717718208,High Risk
+28,Yes,Travel_Frequently,289,Research & Development,2,2,Medical,3,Male,38,2,1,Laboratory Technician,1,Single,2561,5355,7,No,11,3,3,0,8,2,2,0,0,0,0,1,26-35,<3K,0-1yr,0-5 mi,0.9290821114463451,High Risk
+33,No,Travel_Rarely,516,Research & Development,8,5,Life Sciences,4,Male,69,3,2,Healthcare Representative,3,Single,6388,22049,2,Yes,17,3,1,0,14,6,3,0,0,0,0,0,26-35,5K-8K,0-1yr,6-10 mi,0.6465908718049368,High Risk
+29,Yes,Travel_Rarely,224,Research & Development,1,4,Technical Degree,1,Male,100,2,1,Research Scientist,1,Single,2362,7568,6,No,13,3,3,0,11,2,1,9,7,0,7,1,26-35,<3K,6-10yr,0-5 mi,0.8140519613713616,High Risk
+23,No,Travel_Rarely,507,Research & Development,20,1,Life Sciences,1,Male,97,3,2,Laboratory Technician,3,Single,2272,24812,0,No,14,3,2,0,5,2,3,4,3,1,2,0,18-25,<3K,4-5yr,15+ mi,0.8148867171707497,High Risk
+40,Yes,Travel_Rarely,676,Research & Development,9,4,Life Sciences,4,Male,86,3,1,Laboratory Technician,1,Single,2018,21831,3,No,14,3,2,0,15,3,1,5,4,1,0,1,36-45,<3K,4-5yr,6-10 mi,0.6313386742143919,High Risk
+50,No,Travel_Frequently,333,Research & Development,22,5,Medical,3,Male,88,1,4,Research Director,4,Single,14411,24450,1,Yes,13,3,4,0,32,2,3,32,6,13,9,0,46-55,12K+,10+yr,15+ mi,0.7308510622281796,High Risk
+40,No,Travel_Rarely,1342,Sales,9,2,Medical,1,Male,47,3,2,Sales Executive,1,Married,5473,19345,0,No,12,3,4,0,9,5,4,8,4,7,1,0,36-45,5K-8K,6-10yr,6-10 mi,0.6253696640882518,High Risk
+33,No,Travel_Rarely,589,Research & Development,28,4,Life Sciences,2,Male,79,3,2,Laboratory Technician,3,Married,5207,22949,1,Yes,12,3,2,1,15,3,3,15,14,5,7,0,26-35,5K-8K,10+yr,15+ mi,0.7213396609056372,High Risk
+24,No,Travel_Rarely,350,Research & Development,21,2,Technical Degree,3,Male,57,2,1,Laboratory Technician,1,Divorced,2296,10036,0,No,14,3,2,3,2,3,3,1,1,0,0,0,18-25,<3K,0-1yr,15+ mi,0.6436001361974337,High Risk
+36,No,Travel_Rarely,1157,Sales,2,4,Life Sciences,3,Male,70,3,1,Sales Representative,4,Single,2644,17001,3,Yes,21,4,4,0,7,3,2,3,2,1,2,0,36-45,<3K,2-3yr,0-5 mi,0.6979923863754364,High Risk
+33,No,Travel_Rarely,1242,Sales,8,4,Life Sciences,1,Male,46,3,2,Sales Executive,1,Married,6392,10589,2,No,13,3,4,1,8,6,1,2,2,2,2,0,26-35,5K-8K,2-3yr,6-10 mi,0.617258557317173,High Risk
+35,Yes,Travel_Rarely,104,Research & Development,2,3,Life Sciences,1,Female,69,3,1,Laboratory Technician,1,Divorced,2074,26619,1,Yes,12,3,4,1,1,2,3,1,0,0,0,1,26-35,<3K,0-1yr,0-5 mi,0.8763354707961096,High Risk
+34,No,Travel_Rarely,479,Research & Development,7,4,Medical,1,Male,35,3,1,Research Scientist,4,Single,2972,22061,1,No,13,3,3,0,1,4,1,1,0,0,0,0,26-35,<3K,0-1yr,6-10 mi,0.6644819958397643,High Risk
+38,No,Travel_Rarely,437,Sales,16,3,Life Sciences,2,Female,90,3,2,Sales Executive,2,Single,4198,16379,2,No,12,3,2,0,8,5,4,3,2,1,2,0,36-45,3K-5K,2-3yr,15+ mi,0.6194545179876378,High Risk
+35,No,Travel_Rarely,670,Research & Development,10,4,Medical,1,Female,51,3,2,Healthcare Representative,3,Single,6142,4223,3,Yes,16,3,3,0,10,4,3,5,2,0,4,0,26-35,5K-8K,4-5yr,6-10 mi,0.77985999411447,High Risk
+36,No,Travel_Frequently,1302,Research & Development,6,4,Life Sciences,1,Male,80,4,2,Laboratory Technician,1,Married,5562,19711,3,Yes,13,3,4,1,9,3,3,3,2,0,2,0,36-45,5K-8K,2-3yr,6-10 mi,0.6654940916665414,High Risk
+28,Yes,Travel_Rarely,329,Research & Development,24,3,Medical,3,Male,51,3,1,Laboratory Technician,2,Married,2408,7324,1,Yes,17,3,3,3,1,3,3,1,1,0,0,1,26-35,<3K,0-1yr,15+ mi,0.83846755142913,High Risk
+22,No,Non-Travel,457,Research & Development,26,2,Other,2,Female,85,2,1,Research Scientist,3,Married,2814,10293,1,Yes,14,3,2,0,4,2,2,4,2,1,3,0,18-25,<3K,4-5yr,15+ mi,0.9190335702201928,High Risk
+30,No,Travel_Rarely,241,Research & Development,7,3,Medical,2,Male,48,2,1,Research Scientist,2,Married,2141,5348,1,No,12,3,2,1,6,3,2,6,4,1,1,0,26-35,<3K,6-10yr,6-10 mi,0.7004967022092075,High Risk
+45,No,Travel_Rarely,1015,Research & Development,5,5,Medical,3,Female,50,1,2,Laboratory Technician,1,Single,5769,23447,1,Yes,14,3,1,0,10,3,3,10,7,1,4,0,36-45,5K-8K,6-10yr,0-5 mi,0.8227460753815383,High Risk
+45,No,Non-Travel,336,Sales,26,3,Marketing,1,Male,52,2,2,Sales Executive,1,Married,4385,24162,1,No,15,3,1,1,10,2,3,10,7,4,5,0,36-45,3K-5K,6-10yr,15+ mi,0.856832099927009,High Risk
+31,No,Travel_Frequently,715,Sales,2,4,Other,4,Male,54,3,2,Sales Executive,1,Single,5332,21602,7,No,13,3,4,0,10,3,3,5,2,0,3,0,26-35,5K-8K,4-5yr,0-5 mi,0.6033377187261963,High Risk
+36,No,Travel_Rarely,559,Research & Development,12,4,Life Sciences,3,Female,76,3,2,Manufacturing Director,3,Married,4663,12421,9,Yes,12,3,2,2,7,2,3,3,2,1,1,0,36-45,3K-5K,2-3yr,11-15 mi,0.8542661698238007,High Risk
+28,No,Travel_Rarely,580,Research & Development,27,3,Medical,2,Female,39,1,2,Manufacturing Director,1,Divorced,4877,20460,0,No,21,4,2,1,6,5,2,5,3,0,0,0,26-35,3K-5K,4-5yr,15+ mi,0.732812914779769,High Risk
+18,Yes,Travel_Frequently,544,Sales,3,2,Medical,2,Female,70,3,1,Sales Representative,4,Single,1569,18420,1,Yes,12,3,3,0,0,2,4,0,0,0,0,1,18-25,<3K,0-1yr,0-5 mi,0.8921877675329836,High Risk
+35,Yes,Travel_Rarely,737,Sales,10,3,Medical,4,Male,55,2,3,Sales Executive,1,Married,10306,21530,9,No,17,3,3,0,15,3,3,13,12,6,0,1,26-35,8K-12K,10+yr,6-10 mi,0.7600617264060509,High Risk
+40,No,Travel_Rarely,448,Research & Development,16,3,Life Sciences,3,Female,84,3,3,Manufacturing Director,4,Single,7945,19948,6,Yes,15,3,4,0,18,2,2,4,2,3,3,0,36-45,5K-8K,4-5yr,15+ mi,0.6523930592066636,High Risk
+35,Yes,Travel_Rarely,763,Sales,15,2,Medical,1,Male,59,1,2,Sales Executive,4,Divorced,5440,22098,6,Yes,14,3,4,2,7,2,2,2,2,2,2,1,26-35,5K-8K,2-3yr,11-15 mi,0.933022346059169,High Risk
+24,No,Travel_Frequently,567,Research & Development,2,1,Technical Degree,1,Female,32,3,1,Research Scientist,4,Single,3760,17218,1,Yes,13,3,3,0,6,2,3,6,3,1,3,0,18-25,3K-5K,6-10yr,0-5 mi,0.7430694190484988,High Risk
+40,Yes,Travel_Rarely,1329,Research & Development,7,3,Life Sciences,1,Male,73,3,1,Laboratory Technician,1,Single,2166,3339,3,Yes,14,3,2,0,10,3,1,4,2,0,3,1,36-45,<3K,4-5yr,6-10 mi,0.9356155078392043,High Risk
+29,No,Travel_Rarely,469,Sales,10,3,Medical,3,Male,42,2,2,Sales Executive,3,Single,5869,23413,9,No,11,3,3,0,8,2,3,5,2,1,4,0,26-35,5K-8K,4-5yr,6-10 mi,0.8843953852100657,High Risk
+36,No,Travel_Rarely,311,Research & Development,7,3,Life Sciences,1,Male,77,3,1,Laboratory Technician,2,Single,2013,10950,2,No,11,3,3,0,15,4,3,4,3,1,3,0,36-45,<3K,4-5yr,6-10 mi,0.6023864318729342,High Risk
+35,Yes,Travel_Frequently,880,Sales,12,4,Other,4,Male,36,3,2,Sales Executive,4,Single,4581,10414,3,Yes,24,4,1,0,13,2,4,11,9,6,7,1,26-35,3K-5K,10+yr,11-15 mi,0.6441551337655533,High Risk
+29,No,Travel_Rarely,991,Sales,5,3,Medical,1,Male,43,2,2,Sales Executive,2,Divorced,4187,3356,1,Yes,13,3,2,1,10,3,2,10,0,0,9,0,26-35,3K-5K,6-10yr,0-5 mi,0.8362622739076732,High Risk
+49,No,Travel_Rarely,464,Research & Development,16,3,Medical,4,Female,74,3,1,Laboratory Technician,1,Divorced,2587,24941,4,Yes,16,3,2,1,17,2,2,2,2,2,2,0,46-55,<3K,2-3yr,15+ mi,0.606853311324691,High Risk
+20,No,Travel_Rarely,727,Sales,9,1,Life Sciences,4,Male,54,3,1,Sales Representative,1,Single,2728,21082,1,No,11,3,1,0,2,3,3,2,2,0,2,0,18-25,<3K,2-3yr,6-10 mi,0.7898814631888126,High Risk
+36,No,Travel_Rarely,1351,Research & Development,26,4,Life Sciences,1,Male,80,3,2,Healthcare Representative,3,Married,5347,7419,6,No,14,3,2,2,10,2,2,3,2,0,2,0,36-45,5K-8K,2-3yr,15+ mi,0.6941803089676816,High Risk
+23,Yes,Travel_Rarely,1320,Research & Development,8,1,Medical,4,Male,93,2,1,Laboratory Technician,3,Single,3989,20586,1,Yes,11,3,1,0,5,2,3,5,4,1,2,1,18-25,3K-5K,4-5yr,6-10 mi,0.8546623544664332,High Risk
+23,Yes,Travel_Rarely,427,Sales,7,3,Life Sciences,3,Male,99,3,1,Sales Representative,4,Divorced,2275,25103,1,Yes,21,4,2,1,3,2,3,3,2,0,2,1,18-25,<3K,2-3yr,6-10 mi,0.6846744080176931,High Risk
+35,No,Travel_Frequently,146,Research & Development,2,4,Medical,1,Male,79,2,1,Research Scientist,4,Single,4930,13970,0,Yes,14,3,3,0,6,2,4,5,4,1,4,0,26-35,3K-5K,4-5yr,0-5 mi,0.6699998993991976,High Risk
+24,Yes,Travel_Rarely,240,Human Resources,22,1,Human Resources,4,Male,58,1,1,Human Resources,3,Married,1555,11585,1,No,11,3,3,1,1,2,3,1,0,0,0,1,18-25,<3K,0-1yr,15+ mi,0.6599673418686636,High Risk
+47,Yes,Travel_Frequently,1093,Sales,9,3,Life Sciences,3,Male,82,1,4,Sales Executive,3,Married,12936,24164,7,No,11,3,3,0,25,3,1,23,5,14,10,1,46-55,12K+,10+yr,6-10 mi,0.7786709227116408,High Risk
+32,No,Travel_Frequently,585,Research & Development,10,3,Life Sciences,1,Male,56,3,1,Research Scientist,3,Married,3433,17360,6,No,13,3,1,1,10,3,2,5,2,1,3,0,26-35,3K-5K,4-5yr,6-10 mi,0.6777373303583857,High Risk
+40,No,Travel_Rarely,369,Research & Development,8,2,Life Sciences,2,Female,92,3,2,Manufacturing Director,1,Married,6516,5041,2,Yes,16,3,2,1,18,3,3,1,0,0,0,0,36-45,5K-8K,0-1yr,6-10 mi,0.6015773456313007,High Risk
+24,No,Travel_Rarely,506,Research & Development,29,1,Medical,2,Male,91,3,1,Laboratory Technician,1,Divorced,3907,3622,1,No,13,3,2,3,6,2,4,6,2,1,2,0,18-25,3K-5K,6-10yr,15+ mi,0.6007134826455185,High Risk
+47,No,Non-Travel,543,Sales,2,4,Marketing,3,Male,87,3,2,Sales Executive,2,Married,4978,3536,7,No,11,3,4,1,4,3,1,1,0,0,0,0,46-55,3K-5K,0-1yr,0-5 mi,0.6639182767333276,High Risk
+36,Yes,Travel_Rarely,1456,Sales,13,5,Marketing,2,Male,96,2,2,Sales Executive,1,Divorced,6134,8658,5,Yes,13,3,2,3,16,3,3,2,2,2,2,1,36-45,5K-8K,2-3yr,11-15 mi,0.7962681747480985,High Risk
+32,Yes,Travel_Rarely,964,Sales,1,2,Life Sciences,1,Male,34,1,2,Sales Executive,2,Single,6735,12147,6,No,15,3,2,0,10,2,3,0,0,0,0,1,26-35,5K-8K,0-1yr,0-5 mi,0.9183252682863557,High Risk
+23,No,Travel_Rarely,160,Research & Development,4,1,Medical,3,Female,51,3,1,Laboratory Technician,2,Single,3295,12862,1,No,13,3,3,0,3,3,1,3,2,1,2,0,18-25,3K-5K,2-3yr,0-5 mi,0.7106555470135826,High Risk
+32,No,Travel_Rarely,371,Sales,19,3,Life Sciences,4,Male,80,1,3,Sales Executive,3,Married,9610,3840,3,No,13,3,3,1,10,2,1,4,3,0,2,0,26-35,8K-12K,4-5yr,15+ mi,0.6422704169509666,High Risk
+40,No,Travel_Rarely,611,Sales,7,4,Medical,2,Male,88,3,5,Manager,2,Single,19833,4349,1,No,14,3,2,0,21,3,2,21,8,12,8,0,36-45,12K+,10+yr,6-10 mi,0.6061680474151667,High Risk
+29,Yes,Travel_Rarely,428,Sales,9,3,Marketing,2,Female,52,1,1,Sales Representative,2,Single,2760,14630,1,No,13,3,3,0,2,3,3,2,2,2,2,1,26-35,<3K,2-3yr,6-10 mi,0.8751178075970436,High Risk
+29,No,Travel_Frequently,461,Research & Development,1,3,Life Sciences,4,Male,70,4,2,Healthcare Representative,3,Single,6294,23060,8,Yes,12,3,4,0,10,5,4,3,2,0,2,0,26-35,5K-8K,2-3yr,0-5 mi,0.6431317048542761,High Risk
+33,Yes,Travel_Rarely,211,Sales,16,3,Life Sciences,1,Female,74,3,3,Sales Executive,1,Single,8564,10092,2,Yes,20,4,3,0,11,2,2,0,0,0,0,1,26-35,8K-12K,0-1yr,15+ mi,0.9629936137321788,High Risk
+38,No,Travel_Rarely,833,Research & Development,18,3,Medical,2,Male,60,1,2,Healthcare Representative,4,Married,5811,24539,3,Yes,16,3,3,1,15,2,3,1,0,1,0,0,36-45,5K-8K,0-1yr,15+ mi,0.8506761826811489,High Risk
+43,Yes,Travel_Frequently,807,Research & Development,17,3,Technical Degree,3,Male,38,2,1,Research Scientist,3,Married,2437,15587,9,Yes,16,3,4,1,6,4,3,1,0,0,0,1,36-45,<3K,0-1yr,15+ mi,0.832482600628688,High Risk
+34,No,Travel_Rarely,511,Sales,3,2,Life Sciences,4,Female,32,1,2,Sales Executive,4,Single,6029,25353,5,No,12,3,1,0,6,3,3,2,2,2,2,0,26-35,5K-8K,2-3yr,0-5 mi,0.7279847336002129,High Risk
+21,Yes,Travel_Rarely,337,Sales,7,1,Marketing,2,Male,31,3,1,Sales Representative,2,Single,2679,4567,1,No,13,3,2,0,1,3,3,1,0,1,0,1,18-25,<3K,0-1yr,6-10 mi,0.8953040005128624,High Risk
+22,Yes,Travel_Rarely,1294,Research & Development,8,1,Medical,3,Female,79,3,1,Laboratory Technician,1,Married,2398,15999,1,Yes,17,3,3,0,1,6,3,1,0,0,0,1,18-25,<3K,0-1yr,6-10 mi,0.7492299633921192,High Risk
+31,No,Travel_Rarely,196,Sales,29,4,Marketing,1,Female,91,2,2,Sales Executive,4,Married,5468,13402,1,No,14,3,1,2,13,3,3,12,7,5,7,0,26-35,5K-8K,10+yr,15+ mi,0.6315025238676297,High Risk
+37,No,Travel_Rarely,589,Sales,9,2,Marketing,2,Male,46,2,2,Sales Executive,2,Married,4189,8800,1,No,14,3,1,2,5,2,3,5,2,0,3,0,36-45,3K-5K,4-5yr,6-10 mi,0.6610407373277967,High Risk
+36,No,Travel_Rarely,1383,Research & Development,10,3,Life Sciences,4,Male,90,3,3,Healthcare Representative,1,Married,8321,25949,7,Yes,13,3,4,1,15,1,3,12,8,5,7,0,36-45,8K-12K,10+yr,6-10 mi,0.6806393015417681,High Risk
+35,Yes,Travel_Rarely,303,Sales,27,3,Life Sciences,3,Male,84,3,2,Sales Executive,4,Single,5813,13492,1,Yes,18,3,4,0,10,2,3,10,7,7,7,1,26-35,5K-8K,6-10yr,15+ mi,0.7974157424101231,High Risk
+46,No,Non-Travel,849,Sales,26,2,Life Sciences,2,Male,98,2,2,Sales Executive,2,Single,7991,25166,8,No,15,3,3,0,6,3,3,2,2,2,2,0,46-55,5K-8K,2-3yr,15+ mi,0.873638120232922,High Risk
+43,No,Non-Travel,343,Research & Development,9,3,Life Sciences,1,Male,52,3,1,Research Scientist,3,Single,2438,24978,4,No,13,3,3,0,7,2,2,3,2,1,2,0,36-45,<3K,2-3yr,6-10 mi,0.6774398529715306,High Risk
+41,No,Travel_Rarely,447,Research & Development,5,3,Life Sciences,2,Male,85,4,2,Healthcare Representative,2,Single,6870,15530,3,No,12,3,1,0,11,3,1,3,2,1,2,0,36-45,5K-8K,2-3yr,0-5 mi,0.6676294321592497,High Risk
+30,No,Travel_Rarely,1092,Research & Development,10,3,Medical,1,Female,64,3,3,Manufacturing Director,3,Single,9667,2739,9,No,14,3,2,0,9,3,3,7,7,0,2,0,26-35,8K-12K,6-10yr,6-10 mi,0.6034774115476595,High Risk
+26,No,Travel_Rarely,572,Sales,10,3,Medical,3,Male,46,3,2,Sales Executive,4,Single,4684,9125,1,No,13,3,1,0,5,4,3,5,3,1,2,0,26-35,3K-5K,4-5yr,6-10 mi,0.6054371990286238,High Risk
+18,No,Non-Travel,1431,Research & Development,14,3,Medical,2,Female,33,3,1,Research Scientist,3,Single,1514,8018,1,No,16,3,3,0,0,4,1,0,0,0,0,0,18-25,<3K,0-1yr,11-15 mi,0.6009395876845025,High Risk
+29,Yes,Travel_Rarely,350,Human Resources,13,3,Human Resources,1,Male,56,2,1,Human Resources,1,Divorced,2335,3157,4,Yes,15,3,4,3,4,3,3,2,2,2,0,1,26-35,<3K,2-3yr,11-15 mi,0.8887051021057423,High Risk
+47,No,Travel_Rarely,207,Research & Development,9,4,Life Sciences,2,Female,64,3,1,Laboratory Technician,3,Single,2105,5411,4,No,12,3,3,0,7,2,3,2,2,2,0,0,46-55,<3K,2-3yr,6-10 mi,0.6769280865809101,High Risk
+32,Yes,Travel_Rarely,414,Sales,2,4,Marketing,3,Male,82,2,2,Sales Executive,2,Single,9907,26186,7,Yes,12,3,3,0,7,3,2,2,2,2,2,1,26-35,8K-12K,2-3yr,0-5 mi,0.960025809860214,High Risk
+29,Yes,Travel_Frequently,459,Research & Development,24,2,Life Sciences,4,Male,73,2,1,Research Scientist,4,Single,2439,14753,1,Yes,24,4,2,0,1,3,2,1,0,1,0,1,26-35,<3K,0-1yr,15+ mi,0.8905179022602522,High Risk
+30,Yes,Travel_Rarely,945,Sales,9,3,Medical,2,Male,89,3,1,Sales Representative,4,Single,1081,16019,1,No,13,3,3,0,1,3,2,1,0,0,0,1,26-35,<3K,0-1yr,6-10 mi,0.6914646213252897,High Risk
+22,Yes,Travel_Rarely,391,Research & Development,7,1,Life Sciences,4,Male,75,3,1,Research Scientist,2,Single,2472,26092,1,Yes,23,4,1,0,1,2,3,1,0,0,0,1,18-25,<3K,0-1yr,6-10 mi,0.88349367663906,High Risk
+29,No,Travel_Rarely,592,Research & Development,7,3,Life Sciences,4,Male,59,3,1,Laboratory Technician,1,Single,2062,19384,3,No,14,3,2,0,11,2,3,3,2,1,2,0,26-35,<3K,2-3yr,6-10 mi,0.6345184284299684,High Risk
+35,No,Travel_Rarely,219,Research & Development,16,2,Other,4,Female,44,2,2,Manufacturing Director,2,Married,4788,25388,0,Yes,11,3,4,0,4,2,3,3,2,0,2,0,26-35,3K-5K,2-3yr,15+ mi,0.7301408873689975,High Risk
+26,No,Travel_Rarely,482,Research & Development,1,2,Life Sciences,2,Female,90,2,1,Research Scientist,3,Married,2933,14908,1,Yes,13,3,3,1,1,3,2,1,0,1,0,0,26-35,<3K,0-1yr,0-5 mi,0.8343244019030097,High Risk
+34,Yes,Non-Travel,967,Research & Development,16,4,Technical Degree,4,Male,85,1,1,Research Scientist,1,Married,2307,14460,1,Yes,23,4,2,1,5,2,3,5,2,3,0,1,26-35,<3K,4-5yr,15+ mi,0.8904414348179531,High Risk
+36,No,Travel_Rarely,335,Sales,17,2,Marketing,3,Male,33,2,2,Sales Executive,2,Married,5507,16822,2,No,16,3,3,2,12,1,1,4,2,1,3,0,36-45,5K-8K,4-5yr,15+ mi,0.6419065334785699,High Risk
+34,No,Travel_Rarely,735,Sales,3,1,Medical,4,Female,75,2,2,Sales Executive,4,Married,8103,16495,3,Yes,12,3,3,0,9,3,2,4,2,0,1,0,26-35,8K-12K,4-5yr,0-5 mi,0.6181668859542337,High Risk
+31,No,Travel_Rarely,471,Research & Development,4,3,Medical,1,Female,62,4,1,Laboratory Technician,3,Divorced,3978,16031,8,No,12,3,2,1,4,0,2,2,2,2,2,0,26-35,3K-5K,2-3yr,0-5 mi,0.7193567611551439,High Risk
+29,Yes,Travel_Frequently,746,Sales,24,3,Technical Degree,3,Male,45,4,1,Sales Representative,1,Single,1091,10642,1,No,17,3,4,0,1,3,3,1,0,0,0,1,26-35,<3K,0-1yr,15+ mi,0.7266294186790587,High Risk
+39,No,Non-Travel,1251,Sales,21,4,Life Sciences,1,Female,32,1,2,Sales Executive,3,Married,5736,3987,6,No,19,3,3,1,10,1,3,3,2,1,2,0,36-45,5K-8K,2-3yr,15+ mi,0.7294256862399662,High Risk
+28,Yes,Travel_Rarely,1475,Sales,13,2,Marketing,4,Female,84,3,2,Sales Executive,3,Single,9854,23352,3,Yes,11,3,4,0,6,0,3,2,0,2,2,1,26-35,8K-12K,2-3yr,11-15 mi,0.750821219667423,High Risk
+32,Yes,Travel_Frequently,238,Research & Development,5,2,Life Sciences,1,Female,47,4,1,Research Scientist,3,Single,2432,15318,3,Yes,14,3,1,0,8,2,3,4,1,0,3,1,26-35,<3K,4-5yr,0-5 mi,0.8350166886466895,High Risk
+27,Yes,Travel_Frequently,1337,Human Resources,22,3,Human Resources,1,Female,58,2,1,Human Resources,2,Married,2863,19555,1,No,12,3,1,0,1,2,3,1,0,0,0,1,26-35,<3K,0-1yr,15+ mi,0.7576672536967766,High Risk
+29,No,Travel_Rarely,136,Research & Development,1,3,Life Sciences,1,Male,89,3,2,Healthcare Representative,1,Married,5373,6225,0,No,12,3,1,1,6,5,2,5,3,0,2,0,26-35,5K-8K,4-5yr,0-5 mi,0.7175260302761559,High Risk
+38,No,Travel_Rarely,1404,Sales,1,3,Life Sciences,1,Male,59,2,1,Sales Representative,1,Single,2858,11473,4,No,14,3,1,0,20,3,2,1,0,0,0,0,36-45,<3K,0-1yr,0-5 mi,0.8176177838507345,High Risk
+31,Yes,Travel_Frequently,754,Sales,26,4,Marketing,1,Male,63,3,2,Sales Executive,4,Married,5617,21075,1,Yes,11,3,3,0,10,4,3,10,7,0,8,1,26-35,5K-8K,6-10yr,15+ mi,0.7099474797355827,High Risk
+53,Yes,Travel_Rarely,1168,Sales,24,4,Life Sciences,1,Male,66,3,3,Sales Executive,1,Single,10448,5843,6,Yes,13,3,2,0,15,2,2,2,2,2,2,1,46-55,8K-12K,2-3yr,15+ mi,0.9605235525450163,High Risk
+39,No,Travel_Rarely,119,Sales,15,4,Marketing,2,Male,77,3,4,Sales Executive,1,Single,13341,25098,0,No,12,3,1,0,21,3,3,20,8,11,10,0,36-45,12K+,10+yr,11-15 mi,0.717195992028788,High Risk
+54,No,Travel_Rarely,157,Research & Development,10,3,Medical,3,Female,77,3,2,Manufacturing Director,1,Single,4440,25198,6,Yes,19,3,4,0,9,3,3,5,2,1,4,0,46-55,3K-5K,4-5yr,6-10 mi,0.7122462459873999,High Risk
+24,No,Travel_Rarely,771,Research & Development,1,2,Life Sciences,2,Male,45,2,2,Healthcare Representative,3,Single,4617,14120,1,No,12,3,2,0,4,2,2,4,3,1,2,0,18-25,3K-5K,4-5yr,0-5 mi,0.8139303800256263,High Risk
+42,No,Travel_Rarely,557,Research & Development,18,4,Life Sciences,4,Male,35,3,2,Research Scientist,1,Divorced,5410,11189,6,Yes,17,3,3,1,9,3,2,4,3,1,2,0,36-45,5K-8K,4-5yr,15+ mi,0.6880370135184862,High Risk
+35,No,Travel_Rarely,1490,Research & Development,11,4,Medical,4,Male,43,3,1,Laboratory Technician,3,Married,2660,20232,7,Yes,11,3,3,1,5,3,3,2,2,2,2,0,26-35,<3K,2-3yr,11-15 mi,0.777910648784984,High Risk
+33,No,Travel_Rarely,501,Research & Development,15,2,Medical,2,Female,95,3,2,Healthcare Representative,4,Married,4878,21653,0,Yes,13,3,1,1,10,6,3,9,7,8,1,0,26-35,3K-5K,6-10yr,11-15 mi,0.8156009691038553,High Risk
+32,No,Travel_Rarely,267,Research & Development,29,4,Life Sciences,3,Female,49,2,1,Laboratory Technician,2,Single,2837,15919,1,No,13,3,3,0,6,3,3,6,2,4,1,0,26-35,<3K,6-10yr,15+ mi,0.881077023265469,High Risk
+32,No,Travel_Rarely,234,Sales,1,4,Medical,2,Male,68,2,1,Sales Representative,2,Married,2269,18024,0,No,14,3,2,1,3,2,3,2,2,2,2,0,26-35,<3K,2-3yr,0-5 mi,0.7130296076659339,High Risk
+25,No,Travel_Rarely,1382,Sales,8,2,Other,1,Female,85,3,2,Sales Executive,3,Divorced,4907,13684,0,Yes,22,4,2,1,6,3,2,5,3,0,4,0,18-25,3K-5K,4-5yr,6-10 mi,0.6057729949321126,High Risk
+44,No,Travel_Rarely,1037,Research & Development,1,3,Medical,2,Male,42,3,1,Research Scientist,4,Single,2436,13422,6,Yes,12,3,3,0,6,2,3,4,3,1,2,0,36-45,<3K,4-5yr,0-5 mi,0.763860159220238,High Risk
+21,No,Travel_Rarely,501,Sales,5,1,Medical,3,Male,58,3,1,Sales Representative,1,Single,2380,25479,1,Yes,11,3,4,0,2,6,3,2,2,1,2,0,18-25,<3K,2-3yr,0-5 mi,0.915797930674851,High Risk
+23,Yes,Travel_Frequently,638,Sales,9,3,Marketing,4,Male,33,3,1,Sales Representative,1,Married,1790,26956,1,No,19,3,1,1,1,3,2,1,0,1,0,1,18-25,<3K,0-1yr,6-10 mi,0.7392660559402607,High Risk
+29,Yes,Travel_Rarely,1092,Research & Development,1,4,Medical,1,Male,36,3,1,Research Scientist,4,Married,4787,26124,9,Yes,14,3,2,3,4,3,4,2,2,2,2,1,26-35,3K-5K,2-3yr,0-5 mi,0.7677603313090684,High Risk
+36,No,Travel_Rarely,1120,Sales,11,4,Marketing,2,Female,100,2,2,Sales Executive,4,Married,6652,14369,4,No,13,3,1,1,8,2,2,6,3,0,0,0,36-45,5K-8K,6-10yr,11-15 mi,0.6045094348321426,High Risk
+45,No,Travel_Rarely,374,Sales,20,3,Life Sciences,4,Female,50,3,2,Sales Executive,3,Single,4850,23333,8,No,15,3,3,0,8,3,3,5,3,0,1,0,36-45,3K-5K,4-5yr,15+ mi,0.6299218978175721,High Risk
+29,No,Travel_Rarely,1378,Research & Development,13,2,Other,4,Male,46,2,2,Laboratory Technician,2,Married,4025,23679,4,Yes,13,3,1,1,10,2,3,4,3,0,3,0,26-35,3K-5K,4-5yr,11-15 mi,0.8106167177716761,High Risk
+29,No,Travel_Rarely,468,Research & Development,28,4,Medical,4,Female,73,2,1,Research Scientist,1,Single,3785,8489,1,No,14,3,2,0,5,3,1,5,4,0,4,0,26-35,3K-5K,4-5yr,15+ mi,0.6887038808669548,High Risk
+50,Yes,Travel_Rarely,410,Sales,28,3,Marketing,4,Male,39,2,3,Sales Executive,1,Divorced,10854,16586,4,Yes,13,3,2,1,20,3,3,3,2,2,0,1,46-55,8K-12K,2-3yr,15+ mi,0.8046865845122825,High Risk
+27,No,Travel_Rarely,155,Research & Development,4,3,Life Sciences,2,Male,87,4,2,Manufacturing Director,2,Married,6142,5174,1,Yes,20,4,2,1,6,0,3,6,2,0,3,0,26-35,5K-8K,6-10yr,0-5 mi,0.7564806708071355,High Risk
